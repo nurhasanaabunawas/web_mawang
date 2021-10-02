@@ -13,7 +13,7 @@
     <ul class="navbar-nav  ml-auto">           
       <li class="nav-item">
         <a class="nav-link" data-slide="true" role="button">
-          <i class="fas fa-sign-out-alt" aria-hidden="true"></i>
+        <button type="button" class="btn btn-secondary btn-sm">Logout</button>
         </a>
       </li>
     </ul>
