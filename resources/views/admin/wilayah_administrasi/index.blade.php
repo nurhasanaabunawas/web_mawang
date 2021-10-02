@@ -61,8 +61,8 @@
                           <td>{{ $data->rw }}</td>
                           <td>{{ $data->rt }}</td>
                           <td>
-                            <button data-toggle="modal" data-target="#edit" type="submit" class="btn btn-block btn-warning btn-sm">Update</button>
-                            <button data-toggle="modal" data-target="#destroy" type="submit" class="btn btn-block btn-danger btn-sm">Delete</button>
+                            <button data-toggle="modal" data-target="#edit" type="submit" class="btn btn-block btn-warning btn-sm">Edit</button>
+                            <button data-toggle="modal" data-target="#destroy" type="submit" class="btn btn-block btn-danger btn-sm">Hapus</button>
                           </td>
                         </tr>
                       @endforeach
@@ -143,6 +143,60 @@
       </div>
       <!-- /.modal -->
 
+    
+    <!-- Modal -->
+    <div class="modal fade" id="destroy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+    <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Hapus Data</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+          <div class="modal-body">
+           Apakah anda yakin menghapus data ini ?
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+            <button type="button" class="btn btn-primary">Ya</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <!-- Modal -->
+     <div class="modal fade" id="edit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+    <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Edit Data</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">          
+            <div class="form-group">
+              <label >Nama Wilayah</label>
+              <input type="name" id="series_name_store" name="nama_wilayah" class="form-control" placeholder="Nama Wilayah" >
+            </div>
+            <div class="form-group">
+              <label >Nama Ketua RW</label>
+              <input type="name" id="series_name_store" name="nama_ketua_rw" class="form-control" placeholder="Nama Ketua RW" >
+            </div><div class="form-group">
+              <label >Nama Ketua RT</label>
+              <input type="name" id="series_name_store" name="nama_ketua_rt" class="form-control" placeholder="Nama Ketua RT" >
+            </div><div class="form-group">
+              <label >RW</label>
+              <input type="name" id="series_name_store" name="rw" class="form-control" placeholder="RW" >
+            </div><div class="form-group">
+              <label >RT</label>
+              <input type="name" id="series_name_store" name="rt" class="form-control" placeholder="RT" >
+          </div> 
+          <div class="modal-footer d-flex justify-content-center">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+            <button type="button" class="btn btn-primary">Simpan</button>
+          </div> </div>
+          </div>
+        </div>
+      </div>
+    </div>
 @stop
 @push('javascript')
 <!-- DataTables  & Plugins -->

@@ -35,11 +35,11 @@
           </div>
         </div>
         <div class="card-body">
-        	HI
+        
         </div>
         <!-- /.card-body -->
         <div class="card-footer">
-          Footer
+        
         </div>
         <!-- /.card-footer-->
       </div>

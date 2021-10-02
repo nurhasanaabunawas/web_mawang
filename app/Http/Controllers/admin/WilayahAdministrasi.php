@@ -55,7 +55,7 @@ class WilayahAdministrasi extends Controller
 
         $wilayah->save();
 
-        return redirect()->view('admin.wilayah_administrasi.index');
+        return redirect()->route('wilayah_administrasi.index');
     }
 
     /**
