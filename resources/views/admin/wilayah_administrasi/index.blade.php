@@ -62,22 +62,8 @@
                           <td>{{ $data->rt }}</td>
                           <td>
 
-<!--                           
-                            <button data-toggle="modal" data-target="#edit{{ $data->id }}" type="submit" class="btn btn-block btn-warning btn-sm">
-                            
-                            </button> -->
-                              
-                            <button class="btn btn-primary btn-sm">
-                                <i class="fas fa-pencil-alt"></i></i>
-                              </button>
-                            <form action="{{ url('wilayah_admin'.$data->id)}}" method="post" class="d-inline">
-                              @method('delete')
-                              @csrf
-                              <button class="btn btn-danger btn-sm">
-                                <i class="fa fa-trash"></i>
-                              </button>
-                          
-                            <!-- <button data-toggle="modal" data-target="#destroy{{ $data->id }}"  type="submit" class="btn btn-block btn-danger btn-sm">Hapus</button> -->
+                            <button data-toggle="modal" data-target="#edit{{ $data->id }}" type="submit" class="btn btn-block btn-warning btn-sm">Edit</button>
+                            <button data-toggle="modal" data-target="#destroy{{ $data->id }}"  type="submit" class="btn btn-block btn-danger btn-sm">Hapus</button>
 
 
                           </td>
@@ -118,11 +104,11 @@
 
 <!-- /.modal -->
 
-<div class="modal fade" id="store">
-        <div class="modal-dialog modal-xl">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title">Data Wilayah Administrasi</h4>
+ <div class="modal fade" id="store" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="exampleModalLabel">Data Wilayah Administrasi</h4>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -163,22 +149,22 @@
     
     <!-- Modal -->
     @foreach($wilayah_admin as $data)
-    <div class="modal fade" id="destroy{{ $data->id }}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
-    <div class="modal-dialog">
+    <div class="modal fade" id="destroy{{ $data->id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title">Hapus Data</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">&times;</button>
       </div>
           <div class="modal-body">
            Apakah anda yakin menghapus data ini ?
           </div>
-          <form action="{{ url('/admin/wilayah_administrasi/'.$data->id) }}" method="POST">
+          <form action="{{ route('wilayah_administrasi.destroy', $data->id) }}" method="POST">
           @csrf
           @method('DELETE')
             <div class="modal-footer d-flex justify-content-center">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-              <button type="button" class="btn btn-primary">Ya</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+              <button type="submit" class="btn btn-primary">Ya</button>
             </div>
           </form>
         </div>
@@ -188,35 +174,43 @@
 
      <!-- Modal -->
      @foreach($wilayah_admin as $data)
-     <div class="modal fade" id="edit{{ $data->id }}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
-    <div class="modal-dialog">
+     <div class="modal fade" id="edit{{ $data->id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title">Edit Data</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
       </div>
+
+      <form action="{{ route('wilayah_administrasi.update', $data->id) }}" method="POST">
+        @csrf
+        @method('PUT')
       <div class="modal-body">          
             <div class="form-group">
               <label >Nama Wilayah</label>
-              <input type="name" id="series_name_store" name="nama_wilayah" class="form-control" placeholder="Nama Wilayah" >
+              <input type="name" id="nama_wilayah{{ $data->id }}" name="nama_wilayah" value="{{ $data->nama_wilayah }}" class="form-control" placeholder="Nama Wilayah" >
             </div>
             <div class="form-group">
               <label >Nama Ketua RW</label>
-              <input type="name" id="series_name_store" name="nama_ketua_rw" class="form-control" placeholder="Nama Ketua RW" >
+              <input type="name" id="nama_ketua_rw{{ $data->id }}" value="{{ $data->nama_ketua_rw }}" name="nama_ketua_rw" class="form-control" placeholder="Nama Ketua RW" >
             </div><div class="form-group">
               <label >Nama Ketua RT</label>
-              <input type="name" id="series_name_store" name="nama_ketua_rt" class="form-control" placeholder="Nama Ketua RT" >
+              <input type="name" id="nama_ketua_rt{{ $data->id }}" value="{{ $data->nama_ketua_rt }}" name="nama_ketua_rt" class="form-control" placeholder="Nama Ketua RT" >
             </div><div class="form-group">
               <label >RW</label>
-              <input type="name" id="series_name_store" name="rw" class="form-control" placeholder="RW" >
+              <input type="name" id="rw{{ $data->id }}" name="rw" value="{{ $data->rw }}" class="form-control" placeholder="RW" >
             </div><div class="form-group">
               <label >RT</label>
-              <input type="name" id="series_name_store" name="rt" class="form-control" placeholder="RT" >
+              <input type="name" id="rt{{ $data->id }}" name="rt" value="{{ $data->rt }}" class="form-control" placeholder="RT" >
           </div> 
+
           <div class="modal-footer d-flex justify-content-center">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-            <button type="button" class="btn btn-primary">Simpan</button>
-          </div> </div>
+            <button type="submit" class="btn btn-primary">Simpan</button>
+          </div> 
+          </form>
           </div>
         </div>
       </div>

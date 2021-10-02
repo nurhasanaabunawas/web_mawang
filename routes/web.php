@@ -31,7 +31,5 @@ Route::prefix('admin')->group(function(){
     Route::resource('wilayah_administrasi', WilayahAdministrasi::class)->only([
 			'index', 'store', 'update', 'destroy'
 		]);
-
-    Route::delete('penduduk/{id}', 'WilayahAdministrasi@delete');
 });
 

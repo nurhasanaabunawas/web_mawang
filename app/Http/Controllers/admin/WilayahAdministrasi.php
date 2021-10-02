@@ -89,7 +89,23 @@ class WilayahAdministrasi extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $wilayah_admin = WilayahAdmin::find($id);
+
+        $this->validate($request,[
+            'nama_wilayah' => 'required',
+            'nama_ketua_rw' => 'required',
+            'nama_ketua_rt' => 'required',
+            'rw' => 'required',
+            'rt' => 'required',
+        ]);
+        $wilayah_admin->nama_wilayah = $request->nama_wilayah;
+        $wilayah_admin->nama_ketua_rw = $request->nama_ketua_rw;
+        $wilayah_admin->nama_ketua_rt = $request->nama_ketua_rt;
+        $wilayah_admin->rw = $request->rw;
+        $wilayah_admin->rt = $request->rt;
+        $wilayah_admin->save();
+
+        return redirect()->route('wilayah_administrasi.index');
     }
 
     /**
@@ -105,9 +121,5 @@ class WilayahAdministrasi extends Controller
         if($wilayah_admin->delete()){
             return redirect()->route('wilayah_administrasi.index');
         }
-    }
-
-    public function delete($id){
-        return "delete";
     }
 }
