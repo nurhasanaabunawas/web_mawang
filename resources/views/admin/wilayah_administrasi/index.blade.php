@@ -61,8 +61,22 @@
                           <td>{{ $data->rw }}</td>
                           <td>{{ $data->rt }}</td>
                           <td>
-                            <button data-toggle="modal" data-target="#edit{{ $data->id }}" type="submit" class="btn btn-block btn-warning btn-sm">Edit</button>
-                            <button data-toggle="modal" data-target="#destroy{{ $data->id }}"  type="submit" class="btn btn-block btn-danger btn-sm">Hapus</button>
+
+<!--                           
+                            <button data-toggle="modal" data-target="#edit{{ $data->id }}" type="submit" class="btn btn-block btn-warning btn-sm">
+                            
+                            </button> -->
+                              
+                            <a href="" class="btn btn-primary btn-sm">
+                            <i class="fa fa-pencil" ></i></a>
+                            <form action="{{ url('wilayah_admin'.$data->id)}}" method="post" class="d-inline">
+                              @method('delete')
+                              @csrf
+                              <button class="btn btn-danger btn-sm">
+                                <i class="fa fa-trash"></i>
+                              </button>
+                          
+                            <!-- <button data-toggle="modal" data-target="#destroy{{ $data->id }}"  type="submit" class="btn btn-block btn-danger btn-sm">Hapus</button> -->
 
 
                           </td>

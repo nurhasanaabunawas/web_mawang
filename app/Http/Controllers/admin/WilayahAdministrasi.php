@@ -106,4 +106,8 @@ class WilayahAdministrasi extends Controller
             return redirect()->route('wilayah_administrasi.index');
         }
     }
+
+    public function delete($id){
+        return "delete";
+    }
 }
