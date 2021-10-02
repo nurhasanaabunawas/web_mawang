@@ -100,6 +100,10 @@ class WilayahAdministrasi extends Controller
      */
     public function destroy($id)
     {
-        //
+        $wilayah_admin = WilayahAdmin::findOrFail($id);
+
+        if($wilayah_admin->delete()){
+            return redirect()->route('wilayah_administrasi.index');
+        }
     }
 }

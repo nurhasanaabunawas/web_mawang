@@ -61,8 +61,10 @@
                           <td>{{ $data->rw }}</td>
                           <td>{{ $data->rt }}</td>
                           <td>
-                            <button data-toggle="modal" data-target="#edit" type="submit" class="btn btn-block btn-warning btn-sm">Edit</button>
-                            <button data-toggle="modal" data-target="#destroy" type="submit" class="btn btn-block btn-danger btn-sm">Hapus</button>
+                            <button data-toggle="modal" data-target="#edit{{ $data->id }}" type="submit" class="btn btn-block btn-warning btn-sm">Edit</button>
+                            <button data-toggle="modal" data-target="#destroy{{ $data->id }}"  type="submit" class="btn btn-block btn-danger btn-sm">Hapus</button>
+
+
                           </td>
                         </tr>
                       @endforeach
@@ -145,7 +147,8 @@
 
     
     <!-- Modal -->
-    <div class="modal fade" id="destroy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+    @foreach($wilayah_admin as $data)
+    <div class="modal fade" id="destroy{{ $data->id }}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
     <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -155,16 +158,22 @@
           <div class="modal-body">
            Apakah anda yakin menghapus data ini ?
           </div>
-          <div class="modal-footer d-flex justify-content-center">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
-            <button type="button" class="btn btn-primary">Ya</button>
-          </div>
+          <form action="{{ url('/admin/wilayah_administrasi/'.$data->id) }}" method="POST">
+          @csrf
+          @method('DELETE')
+            <div class="modal-footer d-flex justify-content-center">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+              <button type="button" class="btn btn-primary">Ya</button>
+            </div>
+          </form>
         </div>
       </div>
     </div>
+    @endforeach
 
      <!-- Modal -->
-     <div class="modal fade" id="edit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+     @foreach($wilayah_admin as $data)
+     <div class="modal fade" id="edit{{ $data->id }}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" >
     <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
@@ -197,17 +206,29 @@
         </div>
       </div>
     </div>
+    @endforeach
 @stop
 @push('javascript')
-<!-- DataTables  & Plugins -->
+
 <script src="{{ URL::asset('assets')}}/plugins/datatables/jquery.dataTables.min.js"></script>
   <script src="{{ URL::asset('assets')}}/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
   <script src="{{ URL::asset('assets')}}/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
   <script src="{{ URL::asset('assets')}}/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
   <script src="{{ URL::asset('assets')}}/plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
-
+  <script src="{{ URL::asset('assets')}}/plugins/datatables/jquery.dataTables.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/jszip/jszip.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/pdfmake/pdfmake.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/pdfmake/vfs_fonts.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/datatables-buttons/js/buttons.print.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
   <!-- Toastr  & Plugins -->
-  <script src="{{ URL::asset('assets')}}/plugins/toastr/toastr.min.js"></script>
+  <script src="{{URL::asset('assets/plugins/toastr/toastr.min.js')}}"></script>
 
   <script>
   $(function () {
@@ -226,4 +247,6 @@
     });
   });
 </script>
+
+
 @endpush
