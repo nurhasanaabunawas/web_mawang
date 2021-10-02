@@ -52,7 +52,20 @@
                       </tr>
                     </thead>
                     <tbody>
-                     
+                      @foreach ($wilayah_admin as $data)
+                        <tr>
+                          <td>{{ $loop->iteration }}</td>
+                          <td>{{ $data->nama_wilayah }}</td>
+                          <td>{{ $data->nama_ketua_rw }}</td>
+                          <td>{{ $data->nama_ketua_rt }}</td>
+                          <td>{{ $data->rw }}</td>
+                          <td>{{ $data->rt }}</td>
+                          <td>
+                            <button data-toggle="modal" data-target="#edit" type="submit" class="btn btn-block btn-warning btn-sm">Update</button>
+                            <button data-toggle="modal" data-target="#destroy" type="submit" class="btn btn-block btn-danger btn-sm">Delete</button>
+                          </td>
+                        </tr>
+                      @endforeach
                     </tbody>
                     <tfoot>
                     <tr>

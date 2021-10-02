@@ -16,7 +16,8 @@ class WilayahAdministrasi extends Controller
      */
     public function index()
     {
-        return view('admin.wilayah_administrasi.index');
+        $wilayah_admin = WilayahAdmin::all();
+        return view('admin.wilayah_administrasi.index', compact('wilayah_admin'));
     }
 
     /**
@@ -54,7 +55,7 @@ class WilayahAdministrasi extends Controller
 
         $wilayah->save();
 
-        return redirect()->route('admin.wilayah_administrasi.index');
+        return redirect()->view('admin.wilayah_administrasi.index');
     }
 
     /**
