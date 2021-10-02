@@ -8,8 +8,8 @@
       </li>
     </ul>
 
-    <!-- Right navbar links -->'
-    <div class="d-flex flex-row-reverse bd-highlight">
+    <!-- Right navbar links -->
+    <div class="flex-row-reverse bd-highlight">
     <ul class="navbar-nav  ml-auto">           
       <li class="nav-item">
         <a class="nav-link" data-slide="true" role="button">

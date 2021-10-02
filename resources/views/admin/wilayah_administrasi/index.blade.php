@@ -67,8 +67,9 @@
                             
                             </button> -->
                               
-                            <a href="" class="btn btn-primary btn-sm">
-                            <i class="fa fa-pencil" ></i></a>
+                            <button class="btn btn-primary btn-sm">
+                                <i class="fas fa-pencil-alt"></i></i>
+                              </button>
                             <form action="{{ url('wilayah_admin'.$data->id)}}" method="post" class="d-inline">
                               @method('delete')
                               @csrf
