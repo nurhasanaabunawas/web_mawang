@@ -36,13 +36,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{URL('admin/wilayah_administrasi/')}}" class="nav-link">
+                <a href="{{URL('admin/wilayah_administrasi/')}}" class="nav-link {{ (request()->routeIs('wilayah_administrasi.index')) ? 'active' : '' }}">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Wilayah Administrasi</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{Route('admin.pemerintahan')}}" class="nav-link">
+                <a href="{{Route('pemerintahan.index')}}" class="nav-link {{ (request()->routeIs('pemerintahan.index')) ? 'active' : '' }}">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Pemerintahan Kelurahan</p>
                 </a>
@@ -61,13 +61,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="{{Route('admin.penduduk')}}" class="nav-link">
+                <a href="{{Route('admin.penduduk')}}" class="nav-link {{ (request()->routeIs('admin.penduduk')) ? 'active' : '' }}">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Penduduk</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{Route('admin.laporan_bulanan')}}" class="nav-link">
+                <a href="{{Route('admin.laporan_bulanan')}}" class="nav-link {{ (request()->routeIs('admin.laporan_bulanan')) ? 'active' : '' }}">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Laporan Bulanan</p>
                 </a>
