@@ -6,12 +6,9 @@ use App\Http\Controllers\admin\WilayahAdministrasi;
 use App\Http\Controllers\admin\PemerintahanController;
 use App\Http\Controllers\admin\PendudukController;
 use App\Http\Controllers\admin\LaporanBulanan;
-<<<<<<< HEAD
 use App\Http\Controllers\Login;
-=======
 use App\Http\Controllers\user\UserController;
 use App\Http\Controllers\user\ProfilController;
->>>>>>> 3bf0425bc4205b70b067aeb90c1db7118fba02a4
 
 /*
 |--------------------------------------------------------------------------
