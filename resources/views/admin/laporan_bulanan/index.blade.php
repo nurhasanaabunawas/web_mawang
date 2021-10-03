@@ -60,15 +60,6 @@
                         </tr>
                       @endforeach
                     </tbody>
-                    <tfoot>
-                    <tr>
-                        <th>No.</th>
-                        <th>Bulan</th>
-                        <th>Perincian</th>
-                        <th>Status Warga</th>
-                        <th>Total Warga</th>
-                    </tr>
-                    </tfoot>
                   </table>
                 </div>
                 <!-- /.card-body -->

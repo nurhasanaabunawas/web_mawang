@@ -85,25 +85,6 @@
                       @endforeach
                      
                     </tbody>
-                    <tfoot>
-                    <tr>
-                    <th>No.</th>
-                        <th>Nama</th>
-                        <th>Perincian</th>
-                        <th>Status Warga</th>
-                        <th>Bulan</th>
-                        <th>Nama Lingkungan</th>
-                        <th>Jenis Kelamin</th>
-                        <th>NIK</th>
-                        <th>KK</th>
-                        <th>Nama Ayah</th>
-                        <th>Nama Ibu</th>
-                        <th>Nomor Akta Kelahiran</th>
-                        <th>Usia</th>
-                        <th>Kab/Kota Tujuan</th>
-                        <th>Aksi</th>
-                    </tr>
-                    </tfoot>
                   </table>
                 </div>
                 <!-- /.card-body -->

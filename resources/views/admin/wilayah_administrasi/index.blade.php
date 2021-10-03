@@ -70,17 +70,6 @@
                         </tr>
                       @endforeach
                     </tbody>
-                    <tfoot>
-                    <tr>
-                        <th>No.</th>
-                        <th>Nama Wilayah</th>
-                        <th>Nama Ketua RW</th>
-                        <th>Nama Ketua RT</th>
-                        <th>RW</th>
-                        <th>RT</th>
-                        <th>Aksi</th>
-                    </tr>
-                    </tfoot>
                   </table>
                 </div>
                 <!-- /.card-body -->
