@@ -34,7 +34,7 @@
                 <div class="card-header">
                   <div class="bs-example">
                     <h3 class="card-title">Data Laporan Bulanan</h3>
-                    <button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#store3">Tambah</button>
+                   
                   </div>
                 </div>
                 <!-- /.card-header -->
@@ -158,7 +158,7 @@
   $(function () {
     $("#example1").DataTable({
       "responsive": true, "lengthChange": false, "autoWidth": false,
-      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+      "buttons": ["excel", "pdf", "print"]
     }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
     $('#example2').DataTable({
       "paging": true,

@@ -42,9 +42,10 @@
                 <div class="card-body">
                   <table id="example1" class="table table-bordered table-striped">
                     <thead>
-                      <tr>
-                        <th>No.</th>
-                        <th>Status Mutasi</th>
+                    <tr>
+                    <th>No.</th>
+                        <th>Nama</th>
+                        <th>Status</th>
                         <th>Bulan</th>
                         <th>Nama Lingkungan</th>
                         <th>Jenis Kelamin</th>
@@ -56,6 +57,7 @@
                         <th>Usia</th>
                         <th>Kab/Kota Tujuan</th>
                         <th>Aksi</th>
+                    </tr>
                       </tr>
                     </thead>
                     <tbody>
@@ -85,8 +87,9 @@
                     </tbody>
                     <tfoot>
                     <tr>
-                        <th>No.</th>
-                        <th>Status Mutasi</th>
+                    <th>No.</th>
+                        <th>Nama</th>
+                        <th>Status</th>
                         <th>Bulan</th>
                         <th>Nama Lingkungan</th>
                         <th>Jenis Kelamin</th>
@@ -300,7 +303,7 @@
   $(function () {
     $("#example1").DataTable({
       "responsive": true, "lengthChange": false, "autoWidth": false,
-      "buttons": ["copy", "csv", "excel", "pdf", "print", "colvis"]
+      "buttons": ["excel", "pdf", "print"]
     }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
     $('#example2').DataTable({
       "paging": true,
