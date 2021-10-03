@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\admin\DashboardController;
 use App\Http\Controllers\admin\WilayahAdministrasi;
 use App\Http\Controllers\admin\PemerintahanController;
-use App\Http\Controllers\admin\Penduduk;
+use App\Http\Controllers\admin\PendudukController;
 use App\Http\Controllers\admin\LaporanBulanan;
 /*
 |--------------------------------------------------------------------------
@@ -32,6 +32,10 @@ Route::prefix('admin')->group(function(){
 			'index', 'store', 'update', 'destroy'
 		]);
     Route::resource('pemerintahan', PemerintahanController::class)->only([
+    	'index', 'store', 'update', 'destroy'
+    ]);
+
+    Route::resource('penduduk', PendudukController::class)->only([
     	'index', 'store', 'update', 'destroy'
     ]);
 });
