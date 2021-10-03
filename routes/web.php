@@ -9,10 +9,6 @@ use App\Http\Controllers\admin\LaporanBulanan;
 use App\Http\Controllers\Login;
 use App\Http\Controllers\user\UserController;
 use App\Http\Controllers\user\ProfilController;
-use App\Http\Controllers\user\LayananController;
-use App\Http\Controllers\user\LembagaController;
-use App\Http\Controllers\user\DataPendudukController;
-
 
 /*
 |--------------------------------------------------------------------------
@@ -32,7 +28,7 @@ use App\Http\Controllers\user\DataPendudukController;
 // });
 
 Route::prefix('/')->group(function(){
-  Route::resource('user', UserController::class);
+  Route::resource('dashboard', UserController::class);
   Route::resource('profil', ProfilController::class);
   Route::resource('layanan', LayananController::class);
   Route::resource('lembaga', LembagaController::class);
