@@ -11,22 +11,22 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/Gowa.png" rel="icon">
-    <link href="assets/img/Gowa.png" rel="apple-touch-icon">
+    <link href="{{ URL::asset('assets/user/assets/img/Gowa.png')}}" rel="icon">
+    <link href="{{ URL::asset('assets/user/assets/img/Gowa.png')}}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="{{ URL::asset('assets/user/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('assets/user/assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('assets/user/assets/vendor/aos/aos.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('assets/user/assets/vendor/remixicon/remixicon.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('assets/user/assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::asset('assets/user/assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="{{ URL::asset('assets/user/assets/css/style.css') }}" rel="stylesheet">
 
     <!-- =======================================================
   * Template Name: FlexStart - v1.6.0
@@ -42,25 +42,24 @@
     <header id="header" class="header fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-            <a href="index.html" class="logo d-flex align-items-center">
-                <img src="assets/img/gowa.png" alt="">
+            <a href="{{ route('dashboard.index') }}" class="logo d-flex align-items-center">
+                <img src="{{ URL::asset('assets/user/assets/img/gowa.png') }}" alt="">
                 <h2><strong>Kelurahan Mawang</strong></h2>
             </a>
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto" href="index.html">Beranda</a></li>
-                    <li class="dropdown"><a class="nav-link active" href="profil.html"><span>Profil</span> <i class="bi bi-chevron-down"></i></a>
+                    <li><a class="nav-link scrollto" href="{{ route('dashboard.index') }}">Beranda</a></li>
+                    <li class="dropdown"><a class="nav-link active" href="{{ route('profil.index') }}"><span>Profil</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="#sejarah">Sejarah</a></li>
                             <li><a href="#team">Struktur Pemerintahan</a></li>
                             <li><a href="#tupoksi">Tugas Pokok dan Fungsi</a></li>
                         </ul>
                     </li>
-                    <li><a href="layanan.html">Pelayanan</a></li>
-                    <li><a href="lembaga.html">Kelembagaan</a></li>
-                    <li><a href="penduduk.html">Data Penduduk</a></li>
-                </ul>
+                    <li><a href="{{ route('layanan.index') }}">Pelayanan</a></li>
+                    <li><a href="{{ route('lembaga.index') }}">Kelembagaan</a></li>
+                    <li><a href="{{ route('datapenduduk.index') }}">Data Penduduk</a></li>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
             <!-- .navbar -->
@@ -106,7 +105,7 @@
                     <div class="col-lg-3 col-md-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                         <div class="member">
                             <div class="member-img">
-                                <img src="assets/img/kelurahan/babinkamtibnas.png" class="img-fluid" alt="">
+                                <img src="{{ URL::asset('assets/user/assets/img/kelurahan/babinkamtibnas.png') }}" class="img-fluid" alt="">
                             </div>
                             <div class="member-info">
                                 <h4>Bhabinkamtibmas</h4><br>
@@ -118,7 +117,7 @@
                     <div class="col-lg-3 col-md-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                         <div class="member">
                             <div class="member-img">
-                                <img src="assets/img/kelurahan/lurah.png" class="img-fluid" alt="">
+                                <img src="{{ URL::asset('assets/user/assets/img/kelurahan/lurah.png') }}" class="img-fluid" alt="">
                             </div>
                             <div class="member-info">
                                 <h4>Lurah</h4><br>
@@ -130,7 +129,7 @@
                     <div class="col-lg-3 col-md-3  d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                         <div class="member">
                             <div class="member-img">
-                                <img src="assets/img/kelurahan/babinsa.png" class="img-fluid" alt="">
+                                <img src="{{ URL::asset('assets/user/assets/img/kelurahan/babinsa.png') }}" class="img-fluid" alt="">
                             </div>
                             <div class="member-info">
                                 <h4>Babinsa</h4><br>
@@ -144,7 +143,7 @@
                     <div class="col-lg-3 col-md-4 d-flex justify-content-center align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                         <div class="member">
                             <div class="member-img">
-                                <img src="assets/img/kelurahan/Fahrudin-removebg-preview.png" class="img-fluid" alt="">
+                                <img src="{{ URL::asset('assets/user/assets/img/kelurahan/Fahrudin-removebg-preview.png') }}" class="img-fluid" alt="">
                             </div>
                             <div class="member-info">
                                 <h4>Sekretaris Kelurahan</h4><br><br>
@@ -156,7 +155,7 @@
                     <div class="col-lg-3 col-md-4 d-flex justify-content-center align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                         <div class="member">
                             <div class="member-img">
-                                <img src="assets/img/kelurahan/ira-removebg-preview.png" class="img-fluid" alt="">
+                                <img src="{{ URL::asset('assets/user/assets/img/kelurahan/ira-removebg-preview.png') }}" class="img-fluid" alt="">
                             </div>
                             <div class="member-info">
                                 <h4>Kepala Seksi Pemerintahan</h4><br>
@@ -168,7 +167,7 @@
                     <div class="col-lg-3 col-md-3 d-flex justify-content-center align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                         <div class="member">
                             <div class="member-img">
-                                <img src="assets/img/kelurahan/mustari-removebg-preview.png" class="img-fluid" alt="">
+                                <img src="{{ URL::asset('assets/user/assets/img/kelurahan/mustari-removebg-preview.png') }}" class="img-fluid" alt="">
                             </div>
                             <div class="member-info">
                                 <h4>Kepala Seksi Ketentraman dan Ketertiban</h4>
@@ -180,7 +179,7 @@
                     <div class="col-lg-3 col-md-3 d-flex justify-content-center align-items-stretch" data-aos="fade-up" data-aos-delay="400">
                         <div class="member">
                             <div class="member-img">
-                                <img src="assets/img/kelurahan/tamrin-removebg-preview.png" class="img-fluid" alt="">
+                                <img src="{{ URL::asset('assets/user/assets/img/kelurahan/tamrin-removebg-preview.png') }}" class="img-fluid" alt="">
                             </div>
                             <div class="member-info">
                                 <h4>Kepala Seksi Pemberdayaan dan Pelayanan Masyarakat</h4>
@@ -194,7 +193,7 @@
                     <div class="col-lg-3 col-md-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                         <div class="member">
                             <div class="member-img">
-                                <img src="assets/img/kelurahan/Nurul-removebg-preview.png" class="img-fluid" alt="">
+                                <img src="{{ URL::asset('assets/user/assets/img/kelurahan/Nurul-removebg-preview.png') }}" class="img-fluid" alt="">
                             </div>
                             <div class="member-info">
                                 <h4>Honorer</h4>
@@ -206,7 +205,7 @@
                     <div class="col-lg-3 col-md-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                         <div class="member">
                             <div class="member-img">
-                                <img src="assets/img/kelurahan/Supiani-removebg-preview.png" class="img-fluid" alt="">
+                                <img src="{{ URL::asset('assets/user/assets/img/kelurahan/Supiani-removebg-preview.png') }}" class="img-fluid" alt="">
                             </div>
                             <div class="member-info">
                                 <h4>Staff</h4>
@@ -218,7 +217,7 @@
                     <div class="col-lg-3 col-md-3  d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                         <div class="member">
                             <div class="member-img">
-                                <img src="assets/img/kelurahan/haidir-removebg-preview.png" class="img-fluid" alt="">
+                                <img src="{{ URL::asset('assets/user/assets/img/kelurahan/haidir-removebg-preview.png') }}" class="img-fluid" alt="">
                             </div>
                             <div class="member-info">
                                 <h4>Honorer</h4>
@@ -317,8 +316,8 @@
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-5 col-md-12 footer-info">
-                        <a href="index.html" class="logo d-flex align-items-center">
-                            <img src="assets/img/Gowa.png" alt="">
+                        <a href="{{ route('dashboard.index') }}" class="logo d-flex align-items-center">
+                            <img src="{{ URL::asset('assets/user/assets/img/Gowa.png') }}" alt="">
                             <span>Kelurahan Mawang</span>
                         </a>
                         <p>
@@ -349,16 +348,16 @@
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/purecounter/purecounter.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="{{ URL::asset('assets/user/assets/vendor/bootstrap/js/bootstrap.bundle.js') }}"></script>
+    <script src="{{ URL::asset('assets/user/assets/vendor/aos/aos.js') }}"></script>
+    <script src="{{ URL::asset('assets/user/assets/vendor/php-email-form/validate.js') }}"></script>
+    <script src="{{ URL::asset('assets/user/assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/user/assets/vendor/purecounter/purecounter.js') }}"></script>
+    <script src="{{ URL::asset('assets/user/assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ URL::asset('assets/user/assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
 
     <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script src="{{ URL::asset('assets/user/assets/js/main.js') }}"></script>
 
 </body>
 

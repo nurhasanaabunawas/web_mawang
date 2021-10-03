@@ -42,14 +42,14 @@
     <header id="header" class="header fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="{{ route('dashboard.index') }}" class="logo d-flex align-items-center">
                 <img src="{{ URL::asset('assets/user/assets/img/gowa.png') }}" alt="">
                 <h2><strong>Kelurahan Mawang</strong></h2>
             </a>
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="index.html">Beranda</a></li>
+                    <li><a class="nav-link scrollto active" href="{{ route('dashboard.index') }}">Beranda</a></li>
                     <li class="dropdown"><a href="{{ route('profil.index') }}"><span>Profil</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="#sejarah">Sejarah</a></li>
@@ -59,7 +59,7 @@
                     </li>
                     <li><a href="{{ route('layanan.index') }}">Pelayanan</a></li>
                     <li><a href="{{ route('lembaga.index') }}">Kelembagaan</a></li>
-                    <li><a href="{{ route('penduduk.index') }}">Data Penduduk</a></li>
+                    <li><a href="{{ route('datapenduduk.index') }}">Data Penduduk</a></li>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
             <!-- .navbar -->

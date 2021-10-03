@@ -6,12 +6,13 @@ use App\Http\Controllers\admin\WilayahAdministrasi;
 use App\Http\Controllers\admin\PemerintahanController;
 use App\Http\Controllers\admin\PendudukController;
 use App\Http\Controllers\admin\LaporanBulanan;
-<<<<<<< HEAD
 use App\Http\Controllers\Login;
-=======
 use App\Http\Controllers\user\UserController;
 use App\Http\Controllers\user\ProfilController;
->>>>>>> 3bf0425bc4205b70b067aeb90c1db7118fba02a4
+use App\Http\Controllers\user\LayananController;
+use App\Http\Controllers\user\LembagaController;
+use App\Http\Controllers\user\DataPendudukController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -33,6 +34,9 @@ use App\Http\Controllers\user\ProfilController;
 Route::prefix('/')->group(function(){
   Route::resource('dashboard', UserController::class);
   Route::resource('profil', ProfilController::class);
+  Route::resource('layanan', LayananController::class);
+  Route::resource('lembaga', LembagaController::class);
+  Route::resource('datapenduduk', DataPendudukController::class);
   
 });
 
