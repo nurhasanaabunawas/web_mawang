@@ -38,7 +38,9 @@ class PendudukController extends Controller
     public function store(Request $request)
     {
         $this->validate($request,[
-            'status_mutasi' => 'required',
+            'nama' => 'required',
+            'perincian' => 'required',
+            'status' => 'required',
             'bulan' => 'required',
             'nama_lingkungan' => 'required',
             'jenis_kelamin' => 'required',
@@ -52,7 +54,9 @@ class PendudukController extends Controller
         ]);
 
         $penduduk = new Penduduk;
-        $penduduk->status_mutasi = $request->input('status_mutasi');
+        $penduduk->nama = $request->input('nama');
+        $penduduk->perincian = $request->input('perincian');
+        $penduduk->status = $request->input('status');
         $penduduk->bulan = $request->input('bulan');
         $penduduk->nama_lingkungan = $request->input('nama_lingkungan');
         $penduduk->jenis_kelamin = $request->input('jenis_kelamin');
@@ -102,7 +106,9 @@ class PendudukController extends Controller
         $penduduk = Penduduk::find($id);
 
         $this->validate($request,[
-            'status_mutasi' => 'required',
+            'nama' => 'required',
+            'perincian' => 'required',
+            'status' => 'required',
             'bulan' => 'required',
             'nama_lingkungan' => 'required',
             'jenis_kelamin' => 'required',
@@ -115,7 +121,9 @@ class PendudukController extends Controller
             'kota' => 'required',
         ]);
 
-        $penduduk->status_mutasi = $request->status_mutasi;
+        $penduduk->nama = $request->nama;
+        $penduduk->perincian = $request->perincian;
+        $penduduk->status = $request->status;
         $penduduk->bulan = $request->bulan;
         $penduduk->nama_lingkungan = $request->nama_lingkungan;
         $penduduk->jenis_kelamin = $request->jenis_kelamin;

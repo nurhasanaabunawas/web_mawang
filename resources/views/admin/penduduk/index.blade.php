@@ -30,7 +30,6 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-12">
-
               <div class="card">
                 <div class="card-header">
                   <div class="bs-example">
@@ -45,7 +44,8 @@
                     <tr>
                     <th>No.</th>
                         <th>Nama</th>
-                        <th>Status</th>
+                        <th>Perincian</th>
+                        <th>Status Warga</th>
                         <th>Bulan</th>
                         <th>Nama Lingkungan</th>
                         <th>Jenis Kelamin</th>
@@ -64,7 +64,9 @@
                       @foreach ($penduduk as $data)
                         <tr>
                           <td>{{ $loop->iteration }}</td>
-                          <td>{{ $data->status_mutasi }}</td>
+                          <td>{{ $data->nama }}</td>
+                          <td>{{ $data->perincian }}</td>
+                          <td>{{ $data->status }}</td>
                           <td>{{ $data->bulan }}</td>
                           <td>{{ $data->nama_lingkungan }}</td>
                           <td>{{ $data->jenis_kelamin }}</td>
@@ -79,8 +81,6 @@
                             <button data-toggle="modal" data-target="#edit{{ $data->id }}" type="submit" class="btn btn-block btn-warning btn-sm">Edit</button>
                             <button data-toggle="modal" data-target="#destroy{{ $data->id }}"  type="submit" class="btn btn-block btn-danger btn-sm">Hapus</button>
                           </td>
-
-                          </td>
                         </tr>
                       @endforeach
                      
@@ -89,7 +89,8 @@
                     <tr>
                     <th>No.</th>
                         <th>Nama</th>
-                        <th>Status</th>
+                        <th>Perincian</th>
+                        <th>Status Warga</th>
                         <th>Bulan</th>
                         <th>Nama Lingkungan</th>
                         <th>Jenis Kelamin</th>
@@ -135,10 +136,18 @@
             </div>
             <form action="{{ route('penduduk.store') }}" method="POST" id="quickForm" enctype="multipart/form-data">
         @csrf
-        <div class="modal-body">          
+        <div class="modal-body">  
+        <div class="form-group">
+              <label >Nama</label>
+              <input type="name" id="nama" name="nama" class="form-control" placeholder="Status Mutasi" >
+            </div>        
             <div class="form-group">
-              <label >Status Mutasi</label>
-              <input type="name" id="status_mutasi" name="status_mutasi" class="form-control" placeholder="Status Mutasi" >
+              <label >Perincian</label>
+              <input type="name" id="perincian" name="perincian" class="form-control" placeholder="Perincian" >
+            </div>
+            <div class="form-group">
+              <label >Status Warga</label>
+              <input type="name" id="status" name="status" class="form-control" placeholder="Status Mutasi" >
             </div>
             <div class="form-group">
               <label >Bulan</label>
@@ -228,10 +237,18 @@
       <form action="{{ route('penduduk.update', $data->id) }}" method="POST">
         @csrf
         @method('PUT')
-      <div class="modal-body">          
+      <div class="modal-body">
             <div class="form-group">
-              <label >Status Mutasi</label>
-              <input type="name" id="status_mutasi{{ $data->id }}" name="status_mutasi" value="{{ $data->status_mutasi }}" class="form-control" placeholder="Status Mutasi" >
+              <label >Nama</label>
+              <input type="name" id="nama{{ $data->id }}" name="nama" value="{{ $data->nama }}" class="form-control" placeholder="Status Mutasi" >
+            </div>          
+            <div class="form-group">
+              <label >Perincian</label>
+              <input type="name" id="Perincian{{ $data->id }}" name="perincian" value="{{ $data->perincian }}" class="form-control" placeholder="Perincian" >
+            </div>
+            <div class="form-group">
+              <label >Status Warga</label>
+              <input type="name" id="status{{ $data->id }}" name="status" value="{{ $data->status }}" class="form-control" placeholder="Status Mutasi" >
             </div>
             <div class="form-group">
               <label >Bulan</label>

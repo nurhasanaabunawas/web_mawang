@@ -15,12 +15,14 @@ class CreatePenduduksTable extends Migration
     {
         Schema::create('penduduks', function (Blueprint $table) {
             $table->id();
-            $table->string('status_mutasi');
+            $table->string('nama');
+            $table->string('perincian');
+            $table->string('status');
             $table->string('bulan');
             $table->string('nama_lingkungan');
             $table->string('jenis_kelamin');
-            $table->integer('nik');
-            $table->integer('kk');
+            $table->BigInteger('nik');
+            $table->BigInteger('kk');
             $table->string('nama_ayah');
             $table->string('nama_ibu');
             $table->string('no_akta_kelahiran');
@@ -29,6 +31,7 @@ class CreatePenduduksTable extends Migration
             $table->timestamps();
         });
     }
+
 
     /**
      * Reverse the migrations.

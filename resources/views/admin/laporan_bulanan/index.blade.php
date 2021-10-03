@@ -46,15 +46,19 @@
                         <th>Bulan</th>
                         <th>Perincian</th>
                         <th>Status Warga</th>
-                        <th>Jenis Kelamin</th>
-                        <th>Total Perempuan</th>
-                        <th>Total Laki-Laki</th>
                         <th>Total Warga</th>
-                        <th>Aksi</th>
                       </tr>
                     </thead>
                     <tbody>
-                     
+                    @foreach ($penduduk as $data)
+                        <tr>
+                          <td>{{ $loop->iteration }}</td>  
+                          <td>{{ $data->bulan }}</td>
+                          <td>{{ $data->perincian }}</td>
+                          <td>{{ $data->status}}</td>
+                          <td></td>
+                        </tr>
+                      @endforeach
                     </tbody>
                     <tfoot>
                     <tr>
@@ -62,11 +66,7 @@
                         <th>Bulan</th>
                         <th>Perincian</th>
                         <th>Status Warga</th>
-                        <th>Jenis Kelamin</th>
-                        <th>Total Perempuan</th>
-                        <th>Total Laki-Laki</th>
                         <th>Total Warga</th>
-                        <th>Aksi</th>
                     </tr>
                     </tfoot>
                   </table>
@@ -115,18 +115,6 @@
               <input type="name" id="series_name_store" name="nama_ketua_rt" class="form-control" placeholder="Status Warga" > 
               </div>
             <div class="form-group">
-              <label >Jenis Kelamin</label>
-              <input type="name" id="series_name_store" name="rw" class="form-control" placeholder="Jenis Kelamin" >
-              </div>
-            <div class="form-group">
-              <label >Total Perempuan</label>
-              <input type="name" id="series_name_store" name="nama_wilayah" class="form-control" placeholder="Total Perempuan" >
-            </div>
-            <div class="form-group">
-              <label >Total Laki-Laki</label>
-              <input type="name" id="series_name_store" name="nama_wilayah" class="form-control" placeholder="Total Laki-Laki" >
-            </div>
-            <div class="form-group">
               <label >Total Warga</label>
               <input type="name" id="series_name_store" name="nama_wilayah" class="form-control" placeholder="Total Warga" >
             </div>
@@ -150,7 +138,18 @@
   <script src="{{ URL::asset('assets')}}/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
   <script src="{{ URL::asset('assets')}}/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
   <script src="{{ URL::asset('assets')}}/plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
-
+  <script src="{{ URL::asset('assets')}}/plugins/datatables/jquery.dataTables.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/jszip/jszip.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/pdfmake/pdfmake.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/pdfmake/vfs_fonts.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/datatables-buttons/js/buttons.print.min.js"></script>
+  <script src="{{ URL::asset('assets')}}/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
   <!-- Toastr  & Plugins -->
   <script src="{{ URL::asset('assets')}}/plugins/toastr/toastr.min.js"></script>
 

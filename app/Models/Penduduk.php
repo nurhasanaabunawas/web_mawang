@@ -9,7 +9,8 @@ class Penduduk extends Model
 {
     use HasFactory;
     protected $fillable = [
-    	'status_mutasi',
+		'nama',
+    	'status',
     	'bulan',
     	'nama_lingkungan',
     	'jenis_kelamin',

@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\admin;
-
+use App\Models\Penduduk;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
@@ -14,7 +14,8 @@ class LaporanBulanan extends Controller
      */
     public function index()
     {
-        return view('admin.laporan_bulanan.index');
+        $penduduk = Penduduk::all();
+        return view('admin.laporan_bulanan.index', compact('penduduk'));
     }
 
     /**
