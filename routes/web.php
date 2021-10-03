@@ -32,7 +32,7 @@ use App\Http\Controllers\user\DataPendudukController;
 // });
 
 Route::prefix('/')->group(function(){
-  Route::resource('dashboard', UserController::class);
+  Route::resource('user', UserController::class);
   Route::resource('profil', ProfilController::class);
   Route::resource('layanan', LayananController::class);
   Route::resource('lembaga', LembagaController::class);
