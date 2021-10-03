@@ -62,15 +62,13 @@
                           <td>{{ $data->jenis_kelamin }}</td>
                           <td>{{ $data->alamat }}</td>
                           <td>
-
                             <button data-toggle="modal" data-target="#edit{{ $data->id }}" type="submit" class="btn btn-block btn-warning btn-sm">Edit</button>
                             <button data-toggle="modal" data-target="#destroy{{ $data->id }}"  type="submit" class="btn btn-block btn-danger btn-sm">Hapus</button>
-
-
                           </td>
                         </tr>
                       @endforeach
                     </tbody>
+
                   </table>
                 </div>
                 <!-- /.card-body -->

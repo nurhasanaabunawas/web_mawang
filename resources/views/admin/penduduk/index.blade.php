@@ -120,7 +120,7 @@
         <div class="modal-body">  
         <div class="form-group">
               <label >Nama</label>
-              <input type="name" id="nama" name="nama" class="form-control" placeholder="Status Mutasi" >
+              <input type="name" id="nama" name="nama" class="form-control" placeholder="Nama" >
             </div>        
             <div class="form-group">
               <label >Perincian</label>

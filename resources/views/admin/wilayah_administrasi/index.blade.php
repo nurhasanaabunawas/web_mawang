@@ -21,9 +21,6 @@
         </div>
       </div><!-- /.container-fluid -->
     </section>
-
-
-
     <!-- Main content -->
     <section class="content">
         <div class="container-fluid">
@@ -62,8 +59,8 @@
                           <td>{{ $data->rt }}</td>
                           <td>
 
-                            <button data-toggle="modal" data-target="#edit{{ $data->id }}" type="submit" class="btn btn-block btn-warning btn-sm">Edit</button>
-                            <button data-toggle="modal" data-target="#destroy{{ $data->id }}"  type="submit" class="btn btn-block btn-danger btn-sm">Hapus</button>
+                            <button data-toggle="modal" data-target="#edit{{ $data->id }}" type="submit" class="btn btn-block btn-warning btn-sm ">Edit</button>
+                            <button data-toggle="modal" data-target="#destroy{{ $data->id }}"  type="submit" class="btn btn-block btn-danger btn-sm ">Hapus</button>
 
 
                           </td>

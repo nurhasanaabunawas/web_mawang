@@ -46,7 +46,7 @@
                         <th>Bulan</th>
                         <th>Perincian</th>
                         <th>Status Warga</th>
-                        <th>Total Warga</th>
+                 
                       </tr>
                     </thead>
                     <tbody>
@@ -56,10 +56,11 @@
                           <td>{{ $data->bulan }}</td>
                           <td>{{ $data->perincian }}</td>
                           <td>{{ $data->status}}</td>
-                          <td></td>
+                         
                         </tr>
                       @endforeach
                     </tbody>
+                    
                   </table>
                 </div>
                 <!-- /.card-body -->
@@ -105,10 +106,6 @@
               <label >Status Warga</label>
               <input type="name" id="series_name_store" name="nama_ketua_rt" class="form-control" placeholder="Status Warga" > 
               </div>
-            <div class="form-group">
-              <label >Total Warga</label>
-              <input type="name" id="series_name_store" name="nama_wilayah" class="form-control" placeholder="Total Warga" >
-            </div>
             
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
