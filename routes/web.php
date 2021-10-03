@@ -9,6 +9,9 @@ use App\Http\Controllers\admin\LaporanBulanan;
 use App\Http\Controllers\Login;
 use App\Http\Controllers\user\UserController;
 use App\Http\Controllers\user\ProfilController;
+use App\Http\Controllers\user\LayananController;
+use App\Http\Controllers\user\LembagaController;
+use App\Http\Controllers\user\DataPendudukController;
 
 /*
 |--------------------------------------------------------------------------
