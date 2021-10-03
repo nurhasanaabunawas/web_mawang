@@ -49,7 +49,7 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="{{ route('dashboard.index') }}">Beranda</a></li>
+                    <li><a class="nav-link scrollto" href="{{ route('dashboard.index') }}">Beranda</a></li>
                     <li class="dropdown"><a href="{{ route('profil.index') }}"><span>Profil</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="#sejarah">Sejarah</a></li>
@@ -58,7 +58,7 @@
                         </ul>
                     </li>
                     <li><a href="{{ route('layanan.index') }}">Pelayanan</a></li>
-                    <li><a href="{{ route('lembaga.index') }}">Kelembagaan</a></li>
+                    <li><a class="nav link active" href="{{ route('lembaga.index') }}">Kelembagaan</a></li>
                     <li><a href="{{ route('datapenduduk.index') }}">Data Penduduk</a></li>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
