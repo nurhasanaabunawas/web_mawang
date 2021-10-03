@@ -91,7 +91,6 @@
 
             <div class="container" data-aos="fade-up">
 
-            @include('admin.laporanbulanan.index')
                 <!-- Feature Tabs -->
                 <div class="row feture-tabs" data-aos="fade-up">
                     <div>

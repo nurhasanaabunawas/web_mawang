@@ -100,7 +100,7 @@
                             <h3 class="post-title">Pemberdayaan Kesejahteraan Keluarga</h3>
                             <p>Pemberdayaan Kesejahteraan Keluarga, disingkat PKK, adalah organisasi kemasyarakatan yang memberdayakan wanita untuk turut berpartisipasi dalam pembangunan Indonesia. PKK terkenal akan "10 program pokok"-nya. <br>
                             </p>
-                            <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                            <a href="{{ route('pkk.index') }}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
 

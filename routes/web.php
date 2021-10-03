@@ -12,6 +12,7 @@ use App\Http\Controllers\user\ProfilController;
 use App\Http\Controllers\user\LayananController;
 use App\Http\Controllers\user\LembagaController;
 use App\Http\Controllers\user\DataPendudukController;
+use App\Http\Controllers\user\PkkController;
 
 /*
 |--------------------------------------------------------------------------
@@ -36,6 +37,7 @@ Route::prefix('/')->group(function(){
   Route::resource('layanan', LayananController::class);
   Route::resource('lembaga', LembagaController::class);
   Route::resource('datapenduduk', DataPendudukController::class);
+  Route::resource('pkk', PkkController::class);
   
 });
 
