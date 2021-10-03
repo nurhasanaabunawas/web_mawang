@@ -6,6 +6,9 @@ use App\Http\Controllers\admin\WilayahAdministrasi;
 use App\Http\Controllers\admin\PemerintahanController;
 use App\Http\Controllers\admin\PendudukController;
 use App\Http\Controllers\admin\LaporanBulanan;
+use App\Http\Controllers\user\UserController;
+use App\Http\Controllers\user\ProfilController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,8 +21,16 @@ use App\Http\Controllers\admin\LaporanBulanan;
 */
 
 // Route::get('/', function () {
-//     Route::get('dashboard', [DashboardController::class, 'index']);
+//     Route::resource('/', UserController::class)->only([
+//       'index'
+//     ]);
 // });
+
+Route::prefix('/')->group(function(){
+  Route::resource('dashboard', UserController::class);
+  Route::resource('profil', ProfilController::class);
+  
+});
 
 Route::prefix('admin')->group(function(){
     Route::get('dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
