@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>PKK-Kelembagaan Kelurahan Mawang</title>
+    <title>FKPM-Kelembagaan Kelurahan Mawang</title>
     <meta content="" name="description">
 
     <meta content="" name="keywords">
@@ -77,9 +77,9 @@
                 <ol>
                     <li><a href="{{ route('dashboard.index') }}">Beranda</a></li>
                     <li><a href="{{ route('lembaga.index') }}">Kelembagaan</a></li>
-                    <li>PKK</li>
+                    <li>FKPM</li>
                 </ol>
-                <h2>Pemberdayaan Kesejahteraan Keluarga</h2>
+                <h2>Forum Kepolisian Pemitraan Masyarakat</h2>
 
             </div>
         </section>
@@ -96,20 +96,18 @@
                         <article class="entry entry-single">
 
                             <div class="entry-img">
-                                <img src="{{ URL::asset('assets/user/assets/img/family.jpg') }}" alt="" class="img-fluid">
+                                <img src="{{ URL::asset('assets/user/assets/img/polis.jpg') }}" alt="" class="img-fluid">
                             </div>
 
                             <h2 class="entry-title">
-                                <a href="{{ route('pkk.index') }}">Pengertian PKK</a>
+                                <a href="{{ route('pkk.index') }}">Pengertian FKPM</a>
                             </h2>
 
                             <div class="entry-content">
                                 <p>
-                                    Pemberdayaan Kesejahteraan Keluarga, disingkat PKK, adalah organisasi kemasyarakatan yang memberdayakan wanita untuk turut berpartisipasi dalam pembangunan Indonesia. PKK terkenal akan "10 program pokok"-nya. <br>
-                                    <br>10 Program Pokok PKK pada hakikatnya merupakan kebutuhan dasar manusia, yaitu: <br> 1. Penghayatan dan Pengamalan Pancasila <br> 2. Gotong Royong <br> 3. Pangan <br> 4. Sandang <br> 5. Perumahan dan Tatalaksana
-                                    Rumah Tangga <br> 6. Pendidikan dan Keterampilan <br> 7. Kesehatan <br> 8. Pengembangan Kehidupan Berkoperasi <br> 9. Kelestarian Lingkungan Hidup <br> 10. Perencanaan Sehat
-
-                                </p>
+                                <p>Menurut Peraturan Kepolisian Negara Republik Indonesia NOMOR 1 TAHUN 2021 Tentang Pemolisian Masyarakat, Forum Kemitraan Polisi Masyarakat yang selanjutnya disingkat FKPM adalah wadah komunikasi antara Polri dan masyarakat yang dilaksanakan atas dasar kesepakatan bersama dalam rangka membahas masalah keamanan dan ketertiban masyarakat yang perlu dipecahkan bersama guna menciptakan kondisi yang menunjang kelancaran penyelenggaraan fungsi kepolisian dan peningkatan kualitas hidup masyarakat.<br>
+                                Forum Kemitraan Polisi Masyarakat yang selanjutnya disingkat FKPM adalah wadah komunikasi antara Polri dan masyarakat yang dilaksanakan atas dasar kesepakatan bersama dalam rangka membahas masalah keamanan dan ketertiban masyarakat yang perlu dipecahkan bersama guna menciptakan kondisi yang menunjang kelancaran penyelenggaraan fungsi kepolisian dan peningkatan kualitas hidup masyarakat.</p>
+                            </p>
 
                                 <p>
                                     Sit repellat hic cupiditate hic ut nemo. Quis nihil sunt non reiciendis. Sequi in accusamus harum vel aspernatur. Excepturi numquam nihil cumque odio. Et voluptate cupiditate.

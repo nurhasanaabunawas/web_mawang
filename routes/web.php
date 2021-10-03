@@ -13,6 +13,12 @@ use App\Http\Controllers\user\LayananController;
 use App\Http\Controllers\user\LembagaController;
 use App\Http\Controllers\user\DataPendudukController;
 use App\Http\Controllers\user\PkkController;
+use App\Http\Controllers\user\UmkmController;
+use App\Http\Controllers\user\KarangtarunaController;
+use App\Http\Controllers\user\PosyanduController;
+use App\Http\Controllers\user\LpmController;
+use App\Http\Controllers\user\FkpmController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -38,6 +44,11 @@ Route::prefix('/')->group(function(){
   Route::resource('lembaga', LembagaController::class);
   Route::resource('datapenduduk', DataPendudukController::class);
   Route::resource('pkk', PkkController::class);
+  Route::resource('karangtaruna', KarangtarunaController::class);
+  Route::resource('umkm', UmkmController::class);
+  Route::resource('posyandu', PosyanduController::class);
+  Route::resource('lpm', LpmController::class);
+  Route::resource('fkpm', FkpmController::class);
   
 });
 

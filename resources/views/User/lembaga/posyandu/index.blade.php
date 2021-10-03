@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>PKK-Kelembagaan Kelurahan Mawang</title>
+    <title>POSYANDU-Kelembagaan Kelurahan Mawang</title>
     <meta content="" name="description">
 
     <meta content="" name="keywords">
@@ -77,9 +77,9 @@
                 <ol>
                     <li><a href="{{ route('dashboard.index') }}">Beranda</a></li>
                     <li><a href="{{ route('lembaga.index') }}">Kelembagaan</a></li>
-                    <li>PKK</li>
+                    <li>POSYANDU</li>
                 </ol>
-                <h2>Pemberdayaan Kesejahteraan Keluarga</h2>
+                <h2>Pos Pelayanan Terpadu</h2>
 
             </div>
         </section>
@@ -96,11 +96,11 @@
                         <article class="entry entry-single">
 
                             <div class="entry-img">
-                                <img src="{{ URL::asset('assets/user/assets/img/family.jpg') }}" alt="" class="img-fluid">
+                                <img src="{{ URL::asset('assets/user/assets/img/posyandu.png') }}" alt="" class="img-fluid">
                             </div>
 
                             <h2 class="entry-title">
-                                <a href="{{ route('pkk.index') }}">Pengertian PKK</a>
+                                <a href="{{ route('pkk.index') }}">Pengertian POSYANDU</a>
                             </h2>
 
                             <div class="entry-content">

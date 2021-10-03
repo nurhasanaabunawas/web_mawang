@@ -94,43 +94,59 @@
 
                 <div class="row">
 
-                    <div class="col-lg-6">
+                <div class="col-lg-4">
                         <div class="post-box">
-                            <div class="post-img"><img src="{{ URL::asset('assets/user/assets/img/blog/blog-1.jpg') }}" class="img-fluid" alt=""></div>
+                            <div class="post-img"><img src="{{ URL::asset('assets/user/assets/img/masy.jpg') }}" class="img-fluid" alt=""></div>
+                            <h3 class="post-title">Lembaga Pemberdayaan Masyarakat</h3>
+                            <p>Berdasarkan Peraturan Daerah Nomor 13 Tahun 2006 Tentang Lembaga Kemasyarakatan dan Lembaga Adat menyebutkan bahwa “Pengertian Lembaga Pemberdayaan Masyarakat yang selanjutnya disingkat (LPM) adalah....</p>
+                            <a href="{{ route('lpm.index') }}" class="readmore stretched-link mt-auto"><span>Baca Selanjutnya</span><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="post-box">
+                            <div class="post-img"><img src="{{ URL::asset('assets/user/assets/img/polis.jpg') }}" class="img-fluid" alt=""></div>
+                            <h3 class="post-title">Forum Kemitraan Perpolisian Masyarakat</h3>
+                            <p>Menurut Peraturan Kepolisian Negara Republik Indonesia NOMOR 1 TAHUN 2021 Tentang Pemolisian Masyarakat, Forum Kemitraan Polisi Masyarakat yang selanjutnya disingkat FKPM adalah wadah komunikasi antara Polri dan masyarakat...
+                            </p>
+                            <a href="{{ route('fkpm.index') }}" class="readmore stretched-link mt-auto"><span>Baca Selanjutnya</span><i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="post-box">
+                            <div class="post-img"><img src="{{ URL::asset('assets/user/assets/img/family.jpg') }}" class="img-fluid" alt=""></div>
                             <h3 class="post-title">Pemberdayaan Kesejahteraan Keluarga</h3>
                             <p>Pemberdayaan Kesejahteraan Keluarga, disingkat PKK, adalah organisasi kemasyarakatan yang memberdayakan wanita untuk turut berpartisipasi dalam pembangunan Indonesia. PKK terkenal akan "10 program pokok"-nya. <br>
                             </p>
-                            <a href="{{ route('pkk.index') }}" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                            <a href="{{ route('pkk.index') }}" class="readmore stretched-link mt-auto"><span>Baca Selanjutnya</span><i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-4">
                         <div class="post-box">
                             <div class="post-img"><img src="{{ URL::asset('assets/user/assets/img/blog/blog-2.jpg') }}" class="img-fluid" alt=""></div>
                             <h3 class="post-title">Karang Taruna</h3>
-                            <p>Atau yang biasa disebut pkk Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat consectetur sapiente cum, velit amet veniam doloremque consequuntur nesciunt corrupti minima iure libero eligendi aliquam ex cupiditate,
-                                molestiae quis voluptate laudantium!</p>
-                            <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                            <p>Karang Taruna adalah Organisasi Sosial wadah pengembangan generasi muda yang tumbuh dan berkembang atas dasar kesadaran dan tanggung jawab sosial dari, oleh dan untuk masyarakat terutama generasi muda di wilayah desa/kelurahan dan terutama bergerak di bidang...</p>
+                            <a href="{{ route('karangtaruna.index') }}" class="readmore stretched-link mt-auto"><span>Baca Selanjutnya</span><i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-4">
                         <div class="post-box">
-                            <div class="post-img"><img src="{{ URL::asset('assets/user/assets/img/blog/blog-3.jpg') }}" class="img-fluid" alt=""></div>
+                            <div class="post-img"><img src="{{ URL::asset('assets/user/assets/img/posyandu.png') }}" class="img-fluid" alt=""></div>
                             <h3 class="post-title">Pos Pelayanan Terpadu</h3>
-                            <p>Atau yang biasa disebut pkk Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat consectetur sapiente cum, velit amet veniam doloremque consequuntur nesciunt corrupti minima iure libero eligendi aliquam ex cupiditate,
-                                molestiae quis voluptate laudantium!</p>
-                            <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                            <p>Posyandu merupakan salah satu bentuk Upaya Kesehatan Berbasis Masyarakat (UKBM) yang dikelola dan diselenggarakan dari, oleh, untuk dan bersama masyarakat dalam penyelenggaraan pembangunan kesehatan guna memberdayakan masyarakat dan memberikan kemudahan kepada...</p>
+                            <a href="{{ route('posyandu.index') }}" class="readmore stretched-link mt-auto"><span>Baca Selanjutnya</span><i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-4">
                         <div class="post-box">
-                            <div class="post-img"><img src="{{ URL::asset('assets/user/assets/img/blog/blog-3.jpg') }}" class="img-fluid" alt=""></div>
+                            <div class="post-img"><img src="{{ URL::asset('assets/user/assets/img/naskun.jpeg') }}" class="img-fluid" alt=""></div>
                             <h3 class="post-title">Usaha Mikro Kecil Menengah</h3>
-                            <p>Atau yang biasa disebut pkk Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat consectetur sapiente cum, velit amet veniam doloremque consequuntur nesciunt corrupti minima iure libero eligendi aliquam ex cupiditate,
-                                molestiae quis voluptate laudantium!</p>
-                            <a href="blog-single.html" class="readmore stretched-link mt-auto"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+                            <p>UMKM adalah singkatan dari Usaha Mikro, Kecil dan Menengah. Dalam pelaksanaannya, UMKM menerapkan asas kebersamaan, ekonomi yang demokratis, kemandirian, keseimbangan kemajuan, berkelanjutan, efisiensi keadilan, serta kesatuan ekonomi nasional. Di Indonesia...</p>
+                            <a href="{{ route('umkm.index') }}" class="readmore stretched-link mt-auto"><span>Baca Selanjutnya</span><i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
 

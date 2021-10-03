@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>PKK-Kelembagaan Kelurahan Mawang</title>
+    <title>LPM-Kelembagaan Kelurahan Mawang</title>
     <meta content="" name="description">
 
     <meta content="" name="keywords">
@@ -77,9 +77,9 @@
                 <ol>
                     <li><a href="{{ route('dashboard.index') }}">Beranda</a></li>
                     <li><a href="{{ route('lembaga.index') }}">Kelembagaan</a></li>
-                    <li>PKK</li>
+                    <li>LPM</li>
                 </ol>
-                <h2>Pemberdayaan Kesejahteraan Keluarga</h2>
+                <h2>Lembaga Pemberdayaan Masyarakat</h2>
 
             </div>
         </section>
@@ -96,72 +96,40 @@
                         <article class="entry entry-single">
 
                             <div class="entry-img">
-                                <img src="{{ URL::asset('assets/user/assets/img/family.jpg') }}" alt="" class="img-fluid">
+                                <img src="{{ URL::asset('assets/user/assets/img/LOGO-PKK.png') }}" alt="" class="img-fluid">
                             </div>
 
                             <h2 class="entry-title">
-                                <a href="{{ route('pkk.index') }}">Pengertian PKK</a>
+                                <a href="{{ route('pkk.index') }}">Pengertian LPM</a>
                             </h2>
 
                             <div class="entry-content">
                                 <p>
-                                    Pemberdayaan Kesejahteraan Keluarga, disingkat PKK, adalah organisasi kemasyarakatan yang memberdayakan wanita untuk turut berpartisipasi dalam pembangunan Indonesia. PKK terkenal akan "10 program pokok"-nya. <br>
-                                    <br>10 Program Pokok PKK pada hakikatnya merupakan kebutuhan dasar manusia, yaitu: <br> 1. Penghayatan dan Pengamalan Pancasila <br> 2. Gotong Royong <br> 3. Pangan <br> 4. Sandang <br> 5. Perumahan dan Tatalaksana
-                                    Rumah Tangga <br> 6. Pendidikan dan Keterampilan <br> 7. Kesehatan <br> 8. Pengembangan Kehidupan Berkoperasi <br> 9. Kelestarian Lingkungan Hidup <br> 10. Perencanaan Sehat
+                                Berdasarkan Peraturan Daerah Nomor 13 Tahun 2006 Tentang Lembaga Kemasyarakatan dan Lembaga Adat menyebutkan bahwa “Pengertian Lembaga Pemberdayaan Masyarakat yang selanjutnya disingkat (LPM) adalah lembaga, organisasi atau wadah yang di bentuk atas prakarsa masyarakat sebagai mitra pemerintah kelurahan dalam menampung dan mewujudkan aspirasi dan kebutuhan masyarakat di bidang pembangunan.<br>
+                                Sebelum di sebut Lembaga Pemberdayaan Masyarakat, dahulu disebut Lembaga Ketahanan Masyarakat Desa (LKMD). Tujuan utama di bentuknya lembaga ini adalah untuk meningkatkan prakarsa dan swadaya masyarakat dalam menjalankan program pembangunan secara partisipatif. Dalam hal ini partisipasi masyarakat yang dikembangkan melalui Lembaga Pemberdayaan Masyarakat ini mencakup aktivitas dalam merencanakan dan mengawasi pelaksanaan pembangunan di tingkat kelurahan. <br>
+                            <h2 class="entry-title"><a>Tugas Dan Fungsi Lembaga Pemberdayaan Masyarakat</a></h2>
+                            <p>Menurut Peraturan Mentri Dalam Negri Nomor 5 Tahun 2007 Tentang Pedoman Penataan Lembaga Kemasyarakatan jelas menyebutkan terkait dengan tugas dari Lembaga Pemberdayaan Masyarakat Kelurahan sebagaimana dimaksud dalam Pasal 2 ayat (1) mempunyai tugas membantu Lurah dalam pelaksanaan urusan pembangunan, sosial kemasyarakatan, dan pemberdayaan masyarakat. Adapun Lembaga Pemberdayaan Masyarakat dalam melaksanakan tugas sebagaimana dimaksud dalam pasal 3 ayat (1) dan ayat (2) mempunyai tugas dan fungsi sebagai berikut :<br>
+                            1. Menyusun  rencana pembangunan yang partisipatif. <br>
+                            2. Menggerakan swadaya gotong royong masyarakat. <br>
+                            3. Melaksanakan dan mengendalikan pembangunan. <br></p>
 
-                                </p>
-
+                            <h2 class="entry-title">
+                                <a>Struktur Organisasi Lembaga Pemberdayaan Masyarakat Kelurahan Mawang</a>
+                            </h2>
                                 <p>
-                                    Sit repellat hic cupiditate hic ut nemo. Quis nihil sunt non reiciendis. Sequi in accusamus harum vel aspernatur. Excepturi numquam nihil cumque odio. Et voluptate cupiditate.
+                                    Ketua &nbsp;: H.MANSYUR SUTTE <br>
+                                    Sekretaris : Ir. AKHMAD RUMPA <br>
+                                    Bendahara : NURLIAH R<br>
+                                    Anggota : <br>
+                                    1. RACHMAN SE’RE<br>
+                                    2. CHYSAM<br>
+                                    3. MUH SALEH<br>
+                                    4. SAPARUDDIN,S.ST<br>
+                                    5. MUH AGUNG<br>
                                 </p>
 
-                                <blockquote>
-                                    <p>
-                                        Et vero doloremque tempore voluptatem ratione vel aut. Deleniti sunt animi aut. Aut eos aliquam doloribus minus autem quos.
-                                    </p>
-                                </blockquote>
-
-                                <p>
-                                    Sed quo laboriosam qui architecto. Occaecati repellendus omnis dicta inventore tempore provident voluptas mollitia aliquid. Id repellendus quia. Asperiores nihil magni dicta est suscipit perspiciatis. Voluptate ex rerum assumenda dolores nihil quaerat.
-                                    Dolor porro tempora et quibusdam voluptas. Beatae aut at ad qui tempore corrupti velit quisquam rerum. Omnis dolorum exercitationem harum qui qui blanditiis neque. Iusto autem itaque. Repudiandae hic quae aspernatur
-                                    ea neque qui. Architecto voluptatem magni. Vel magnam quod et tempora deleniti error rerum nihil tempora.
-                                </p>
-
-                                <h3>Et quae iure vel ut odit alias.</h3>
-                                <p>
-                                    Officiis animi maxime nulla quo et harum eum quis a. Sit hic in qui quos fugit ut rerum atque. Optio provident dolores atque voluptatem rem excepturi molestiae qui. Voluptatem laborum omnis ullam quibusdam perspiciatis nulla nostrum. Voluptatum est libero
-                                    eum nesciunt aliquid qui. Quia et suscipit non sequi. Maxime sed odit. Beatae nesciunt nesciunt accusamus quia aut ratione aspernatur dolor. Sint harum eveniet dicta exercitationem minima. Exercitationem omnis asperiores
-                                    natus aperiam dolor consequatur id ex sed. Quibusdam rerum dolores sint consequatur quidem ea. Beatae minima sunt libero soluta sapiente in rem assumenda. Et qui odit voluptatem. Cum quibusdam voluptatem voluptatem
-                                    accusamus mollitia aut atque aut.
-                                </p>
-                                <img src="{{ URL::asset('assets/user/assets/img/blog/blog-inside-post.jpg') }}" class="img-fluid" alt="">
-
-                                <h3>Ut repellat blanditiis est dolore sunt dolorum quae.</h3>
-                                <p>
-                                    Rerum ea est assumenda pariatur quasi et quam. Facilis nam porro amet nostrum. In assumenda quia quae a id praesentium. Quos deleniti libero sed occaecati aut porro autem. Consectetur sed excepturi sint non placeat quia repellat incidunt labore. Autem
-                                    facilis hic dolorum dolores vel. Consectetur quasi id et optio praesentium aut asperiores eaque aut. Explicabo omnis quibusdam esse. Ex libero illum iusto totam et ut aut blanditiis. Veritatis numquam ut illum ut a
-                                    quam vitae.
-                                </p>
-                                <p>
-                                    Alias quia non aliquid. Eos et ea velit. Voluptatem maxime enim omnis ipsa voluptas incidunt. Nulla sit eaque mollitia nisi asperiores est veniam.
-                                </p>
 
                             </div>
-
-                            <div class="entry-footer">
-                                <i class="bi bi-folder"></i>
-                                <ul class="cats">
-                                    <li><a href="#">Business</a></li>
-                                </ul>
-
-                                <i class="bi bi-tags"></i>
-                                <ul class="tags">
-                                    <li><a href="#">Creative</a></li>
-                                    <li><a href="#">Tips</a></li>
-                                    <li><a href="#">Marketing</a></li>
-                                </ul>
-                            </div>
-
                         </article>
                         <!-- End blog entry -->
 

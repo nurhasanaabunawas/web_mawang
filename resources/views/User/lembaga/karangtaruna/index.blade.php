@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>PKK-Kelembagaan Kelurahan Mawang</title>
+    <title>Karang Taruna-Kelembagaan Kelurahan Mawang</title>
     <meta content="" name="description">
 
     <meta content="" name="keywords">
@@ -77,9 +77,9 @@
                 <ol>
                     <li><a href="{{ route('dashboard.index') }}">Beranda</a></li>
                     <li><a href="{{ route('lembaga.index') }}">Kelembagaan</a></li>
-                    <li>PKK</li>
+                    <li>Karang Taruna</li>
                 </ol>
-                <h2>Pemberdayaan Kesejahteraan Keluarga</h2>
+                <h2>Karang Taruna</h2>
 
             </div>
         </section>
@@ -96,30 +96,34 @@
                         <article class="entry entry-single">
 
                             <div class="entry-img">
-                                <img src="{{ URL::asset('assets/user/assets/img/family.jpg') }}" alt="" class="img-fluid">
+                                <img src="{{ URL::asset('assets/user/assets/img/blog/blog-1.jpg') }}" alt="" class="img-fluid">
                             </div>
 
                             <h2 class="entry-title">
-                                <a href="{{ route('pkk.index') }}">Pengertian PKK</a>
+                                <a href="{{ route('pkk.index') }}">Pengertian Karang Taruna</a>
                             </h2>
 
                             <div class="entry-content">
                                 <p>
-                                    Pemberdayaan Kesejahteraan Keluarga, disingkat PKK, adalah organisasi kemasyarakatan yang memberdayakan wanita untuk turut berpartisipasi dalam pembangunan Indonesia. PKK terkenal akan "10 program pokok"-nya. <br>
-                                    <br>10 Program Pokok PKK pada hakikatnya merupakan kebutuhan dasar manusia, yaitu: <br> 1. Penghayatan dan Pengamalan Pancasila <br> 2. Gotong Royong <br> 3. Pangan <br> 4. Sandang <br> 5. Perumahan dan Tatalaksana
-                                    Rumah Tangga <br> 6. Pendidikan dan Keterampilan <br> 7. Kesehatan <br> 8. Pengembangan Kehidupan Berkoperasi <br> 9. Kelestarian Lingkungan Hidup <br> 10. Perencanaan Sehat
+                                Karang Taruna adalah Organisasi Sosial wadah pengembangan generasi muda yang tumbuh dan berkembang atas dasar kesadaran dan tanggung jawab sosial dari, oleh dan untuk masyarakat terutama generasi muda di wilayah desa/ kelurahan dan terutama bergerak di bidang usaha kesejahteraan sosial. 
+                                Sebagai wadah pengembangan generasi muda, Karang Taruna merupakan tempat diselenggarakannya berbagai upaya atau kegiatan untuk meningkatkan dan mengembangkan cipta, rasa, karsa, dan karya generasi muda dalam rangka pengembangan sumber daya manusia (SDM). 
+                                Karang Taruna tumbuh dan berkembang atas dasar adanya kesadaran terhadap keadaan dan permasalahan di lingkungannya serta adanya tanggung jawab sosial untuk turut berusaha menanganinya. Kesadaran dan tanggung jawab sosial tersebut merupakan modal dasar tumbuh dan berkembangnya Karang Taruna.<br>
+                                <br><strong>Pedoman Dasar KARANG TARUNA</strong> diatur dalam Peraturan Menteri Sosial RI Nomor 83/HUK/2005 tentang Pedoman Dasar Karang Taruna, yang kemudian diubah menjadi Permensos RI Nomor 77/HUK/2010.<br><br>
 
+                                <h2 class="entry-title"><a>Tugas Pokok dan Fungsi Karang Taruna</a></h2>
+                                Tugas Pokok Karang Taruna adalah Secara bersama‑sama dengan Pemerintah dan komponen masyarakat lainnya untuk menanggulangi berbagai masalah kesejahteraan sosial terutama yang dihadapi generasi muda, baik yang bersifat preventif, rehabilitatif maupun pengembangan potensi generasi muda di lingkungannya. <br>
+                                Fungsi Karang Taruna adalah : <br>
+                                <li>Penyelenggara Usaha Kesejahteraan Sosial.</li>
+<li>Penyelenggara Pendidikan dan Pelatihan bagi masyarakat.</li>
+<li>Penyelenggara pemberdayaan masyarakat terutama generasi muda secara komprehensif, terpacu dan terarah serta berkesinambungan.</li>
+<li>Penyelenggara kegiatan pengembangan jiwa kewirausahaan bagi generasi muda di lingkungannya.</li>
+<li>Pengertian, memupuk dan meningkatkan kesadaran tanggung jawab sosial generasi muda.</li>
+<li>Penumbuhan dan pengembangan semangat kebersamaan, jiwa kekeluargaan, kesetiakawanan sosial dan memperkuat nilai-nilai kearifan dalam bingkai Negara Kesatuan Republik lndonesia.</li>
+<li>Pemupukan kreatifitas generasi muda untuk dapat mengembangkan tanggung jawab sosial yang bersifat rekreatif, kreatif, edukatif, ekonomis produktif dan kegiatan praktis lainnya dengan mendayagunakan segala sumber dan potensi kesejahteraan sosial di lingkungannya secara swadaya.</li>
+<li>Penyelenggara rujukan, pendampingan, dan advokasi sosial bagi penyandang masalah kesejahteraan sosial.</li>
+<li>Penguatan sistem jaringan komunikasi, kerjasama, informasi dan kemitraan dengan berbagai sektor lainnya.</li>
+<li>Penyelenggara Usaha‑usaha pencegahan permasalahan sosial yang aktual.</li>
                                 </p>
-
-                                <p>
-                                    Sit repellat hic cupiditate hic ut nemo. Quis nihil sunt non reiciendis. Sequi in accusamus harum vel aspernatur. Excepturi numquam nihil cumque odio. Et voluptate cupiditate.
-                                </p>
-
-                                <blockquote>
-                                    <p>
-                                        Et vero doloremque tempore voluptatem ratione vel aut. Deleniti sunt animi aut. Aut eos aliquam doloribus minus autem quos.
-                                    </p>
-                                </blockquote>
 
                                 <p>
                                     Sed quo laboriosam qui architecto. Occaecati repellendus omnis dicta inventore tempore provident voluptas mollitia aliquid. Id repellendus quia. Asperiores nihil magni dicta est suscipit perspiciatis. Voluptate ex rerum assumenda dolores nihil quaerat.
