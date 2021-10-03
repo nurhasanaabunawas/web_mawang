@@ -6,6 +6,8 @@ use App\Http\Controllers\admin\WilayahAdministrasi;
 use App\Http\Controllers\admin\PemerintahanController;
 use App\Http\Controllers\admin\PendudukController;
 use App\Http\Controllers\admin\LaporanBulanan;
+use App\Http\Controllers\Login;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -38,5 +40,12 @@ Route::prefix('admin')->group(function(){
     Route::resource('penduduk', PendudukController::class)->only([
     	'index', 'store', 'update', 'destroy'
     ]);
+
+   
 });
 
+Route::get('/login', function() {
+  return view('User.login');
+});
+
+Route::post('/postlogin', 'Login@postlogin')->name('postlogin');
