@@ -49,12 +49,14 @@ Route::prefix('/')->group(function(){
   Route::resource('posyandu', PosyanduController::class);
   Route::resource('lpm', LpmController::class);
   Route::resource('fkpm', FkpmController::class);
+
+  Route::get('login', [login::class, 'index'])->name('admin.login');
+	Route::post('postlogin', [login::class, 'postlogin'])->name('admin.postlogin');
   
 });
 
 Route::prefix('admin')->group(function(){
-    Route::get('dashboard', [DashboardController::class, 'index'])->name('admin.dashboard');
-    Route::get('penduduk', [Penduduk::class, 'index'])->name('admin.penduduk');
+    Route::resource('dashboard', DashboardController::class);
     Route::get('laporan_bulanan', [LaporanBulanan::class, 'index'])->name('admin.laporan_bulanan');
 
 
@@ -69,12 +71,4 @@ Route::prefix('admin')->group(function(){
     Route::resource('penduduk', PendudukController::class)->only([
     	'index', 'store', 'update', 'destroy'
     ]);
-
-   
 });
-
-Route::get('/login', function() {
-  return view('User.login');
-});
-
-Route::post('/postlogin', 'Login@postlogin')->name('postlogin');
