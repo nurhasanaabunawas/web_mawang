@@ -98,7 +98,7 @@
         <!-- /.container-fluid -->
       </section>
       <!-- /.content -->
-    </div>D=
+    </div>
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->

@@ -90,143 +90,64 @@
         <section id="features" class="features">
 
             <div class="container" data-aos="fade-up">
-
-                <!-- Feature Tabs -->
-                <div class="row feture-tabs" data-aos="fade-up">
-                    <div>
-                        <h3>Syarat-syarat Pembuatan Surat :</h3>
-
-                        <!-- Tabs -->
-                        <ul class="nav nav-pills mb-3">
-                            <li>
-                                <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Surat Pindah Keluar dan Masuk</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" data-bs-toggle="pill" href="#tab2">Surat Keterangan Kelahiran</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" data-bs-toggle="pill" href="#tab3">Surat Keterangan Kematian</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" data-bs-toggle="pill" href="#tab4">Surat Keterangan Usaha</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" data-bs-toggle="pill" href="#tab5">Surat Keterangan Tidak Mampu</a>
-                            </li>
-                            <li>
-                                <a class="nav-link" data-bs-toggle="pill" href="#tab6">Surat Keterangan Penghasilan</a>
-                            </li>
-                        </ul>
-                        <!-- End Tabs -->
-
-                        <!-- Tab Content -->
-                        <div class="tab-content">
-
-                            <div class="tab-pane fade show active" id="tab1">
-                                <p>Beberapa dokumen yang harus Anda persiapkan terlebih dahulu sebelum mengurus pembuatan Surat Pindah Keluar di Kantor Kelurahan Mawang, yaitu:</p>
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="bi bi-check2"></i>
-                                    <h4>Surat Pengantar dari RT</h4>
-                                </div>
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="bi bi-check2"></i>
-                                    <h4>Kartu Keluarga Asli</h4>
-                                </div>
-                                <br>
-                                <p>Untuk dokumen yang harus Anda persiapkan terlebih dahulu sebelum mengurus pembuatan Surat Pindah Masuk di Kantor Kelurahan Mawang, yaitu:</p>
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="bi bi-check2"></i>
-                                    <h4>Surat Keterangan Pindah dari RT tempat tinggal sebelumnya</h4>
-                                </div>
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="bi bi-check2"></i>
-                                    <h4>Kartu Keluarga Asli</h4>
-                                </div>
-                            </div>
-                            <!-- End Tab 1 Content -->
-
-                            <div class="tab-pane fade show" id="tab2">
-                                <p>Beberapa dokumen yang harus Anda persiapkan terlebih dahulu sebelum mengurus pembuatan Surat Keterangan Kelahiran di Kantor Kelurahan Mawang, yaitu:</p>
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="bi bi-check2"></i>
-                                    <h4>Surat Pengantar dari RT</h4>
-                                </div>
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="bi bi-check2"></i>
-                                    <h4>Fotocopy Kartu Keluarga</h4>
-                                </div>
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="bi bi-check2"></i>
-                                    <h4>Surat Kelahiran dari RS</h4>
-                                </div>
-                            </div>
-                            <!-- End Tab 2 Content -->
-
-                            <div class="tab-pane fade show" id="tab3">
-                                <p>Beberapa dokumen yang harus Anda persiapkan terlebih dahulu sebelum mengurus pembuatan Surat Keterangan Kematian di Kantor Kelurahan Mawang, yaitu:</p>
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="bi bi-check2"></i>
-                                    <h4>Surat Pengantar dari RT</h4>
-                                </div>
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="bi bi-check2"></i>
-                                    <h4>Fotocopy Kartu Keluarga</h4>
-                                </div>
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="bi bi-check2"></i>
-                                    <h4>Pengantar dari Pak Imam Kelurahan</h4>
-                                </div>
-                            </div>
-                            <!-- End Tab 3 Content -->
-
-                            <div class="tab-pane fade show" id="tab4">
-                                <p>Beberapa dokumen yang harus Anda persiapkan terlebih dahulu sebelum mengurus pembuatan Surat Keterangan Usaha (SKU) di Kantor Kelurahan Mawang, yaitu:</p>
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="bi bi-check2"></i>
-                                    <h4>Surat Pengantar dari RT</h4>
-                                </div>
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="bi bi-check2"></i>
-                                    <h4>Fotocopy Kartu Keluarga</h4>
-                                </div>
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="bi bi-check2"></i>
-                                    <h4>Foto Usaha</h4>
-                                </div>
-                            </div>
-                            <!-- End Tab 4 Content -->
-
-                            <div class="tab-pane fade show" id="tab5">
-                                <p>Beberapa dokumen yang harus Anda persiapkan terlebih dahulu sebelum mengurus pembuatan Surat Keterangan Tidak Mampu (SKTM) di Kantor Kelurahan Mawang, yaitu:</p>
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="bi bi-check2"></i>
-                                    <h4>Surat Pengantar dari RT</h4>
-                                </div>
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="bi bi-check2"></i>
-                                    <h4>Fotocopy Kartu Keluarga</h4>
-                                </div>
-                            </div>
-                            <!-- End Tab 5 COntent -->
-
-                            <div class="tab-pane fade show" id="tab6">
-                                <p>Beberapa dokumen yang harus Anda persiapkan terlebih dahulu sebelum mengurus pembuatan Surat Keterangan Kelahiran di Kantor Kelurahan Mawang, yaitu:</p>
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="bi bi-check2"></i>
-                                    <h4>Surat Pengantar dari RT</h4>
-                                </div>
-                                <div class="d-flex align-items-center mb-2">
-                                    <i class="bi bi-check2"></i>
-                                    <h4>Fotocopy Kartu Keluarga</h4>
-                                </div>
-                            </div>
-                            <!-- End Tab 6 Content -->
-
-                        </div>
-
-                    </div>
-
+            <section class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="card">
+                <div class="card-header">
+                  <div class="bs-example">
+                    <h3 class="card-title">Data Penduduk</h3>
                 </div>
+                <!-- /.card-header -->
+                <div class="card-body">
+                  <table id="example1" class="table table-bordered table-striped">
+                    <thead>
+                    <tr>
+                    <th>No.</th>
+                        <th>Nama</th>
+                        <th>Perincian</th>
+                        <th>Status Warga</th>
+                        <th>Bulan</th>
+                        <th>Nama Lingkungan</th>
+                        <th>Jenis Kelamin</th>
+                        <th>Usia</th>
+                        <th>Kab/Kota Tujuan</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                      @foreach ($penduduk as $data)
+                        <tr>
+                          <td>{{ $loop->iteration }}</td>
+                          <td>{{ $data->nama }}</td>
+                          <td>{{ $data->perincian }}</td>
+                          <td>{{ $data->status }}</td>
+                          <td>{{ $data->bulan }}</td>
+                          <td>{{ $data->nama_lingkungan }}</td>
+                          <td>{{ $data->jenis_kelamin }}</td>
+                          <td>{{ $data->usia }}</td>
+                          <td>{{ $data->kota }}</td>
+                        </tr>
+                      @endforeach
+                     
+                    </tbody>
+                </table>
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.card -->
+            </div>
+            <!-- /.col -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container-fluid -->
+      </section>
+      <!-- /.content -->
+
+            </div>
+    </section>
+    </main>
                 <!-- End Feature Tabs -->
 
 

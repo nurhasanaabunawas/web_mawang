@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\user;
 
 use App\Http\Controllers\Controller;
+use App\Models\Penduduk;
 use Illuminate\Http\Request;
 
 class DataPendudukController extends Controller
@@ -14,7 +15,8 @@ class DataPendudukController extends Controller
      */
     public function index()
     {
-        return view('user.datapenduduk.index');
+        $penduduk = Penduduk::all();
+        return view('user.datapenduduk.index', compact('penduduk'));
     }
 
     /**
