@@ -12,7 +12,7 @@
     <div class="flex-row-reverse bd-highlight">
     <ul class="navbar-nav  ml-auto">           
       <li class="nav-item">
-        <a class="nav-link" data-slide="true" role="button">
+        <a class="nav-link" data-slide="true" href="{{ route('admin.logout') }}" role="button">
         <button type="button" class="btn btn-secondary btn-sm">Logout</button>
         </a>
       </li>

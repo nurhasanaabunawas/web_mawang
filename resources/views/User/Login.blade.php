@@ -43,7 +43,7 @@
       <form action="{{route('admin.postlogin')}}" method="post">
           @csrf
         <div class="input-group mb-3">
-          <input type="email" class="form-control" name="nama" placeholder="Nama">
+          <input type="email" class="form-control" name="email" placeholder="email">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-pencil-alt"></span>
