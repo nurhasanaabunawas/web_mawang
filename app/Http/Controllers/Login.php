@@ -20,7 +20,7 @@ class Login extends Controller
 
     public function postlogin (Request $request){
         $credentials = $request->validate([
-            'email' => ['required'],
+            'email' => ['required', 'email'],
             'password' => ['required'],
         ]);
         // dd($request->all());
@@ -30,7 +30,7 @@ class Login extends Controller
             return redirect()->route('dashboard.index');
 
         }
-        return redirect()->route('admin.login');
+        return back();
     }
 
     public function logout(){

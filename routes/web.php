@@ -55,7 +55,6 @@ Route::prefix('/')->group(function(){
   Route::get('logout', [login::class, 'logout'])->name('admin.logout');
   
 });
-
 Route::prefix('admin')->group(function(){
     Route::resource('dashboard', DashboardController::class);
     Route::get('laporan_bulanan', [LaporanBulanan::class, 'index'])->name('admin.laporan_bulanan');
