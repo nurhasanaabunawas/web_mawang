@@ -42,14 +42,14 @@
     <header id="header" class="header fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-            <a href="{{ route('dashboard.index') }}" class="logo d-flex align-items-center">
+            <a href="{{ route('user.index') }}" class="logo d-flex align-items-center">
                 <img src="{{ URL::asset('assets/user/assets/img/gowa.png') }}" alt="">
                 <h2><strong>Kelurahan Mawang</strong></h2>
             </a>
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto" href="{{ route('dashboard.index') }}">Beranda</a></li>
+                    <li><a class="nav-link scrollto" href="{{ route('user.index') }}">Beranda</a></li>
                     <li class="dropdown"><a href="{{ route('profil.index') }}"><span>Profil</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="#sejarah">Sejarah</a></li>
@@ -75,7 +75,7 @@
             <div class="container">
 
                 <ol>
-                    <li><a href="{{ route('dashboard.index') }}">Beranda</a></li>
+                    <li><a href="{{ route('user.index') }}">Beranda</a></li>
                     <li><a href="{{ route('lembaga.index') }}">Kelembagaan</a></li>
                     <li>UMKM</li>
                 </ol>
@@ -100,7 +100,7 @@
                             </div>
 
                             <h2 class="entry-title">
-                                <a href="{{ route('pkk.index') }}">Apa itu UMKM?</a>
+                                <a>Apa itu UMKM?</a>
                             </h2>
 
                             <div class="entry-content">
@@ -113,7 +113,24 @@
                                         Berikut adalah list UMKM di Kelurahan Mawang :
                                     </p>
                                 </blockquote>
-
+                                <table id="example1" class="table table-bordered table-striped">
+                                <thead>
+                                <tr>
+                                <th>No.</th>
+                                <th>Bidang Usaha</th>
+                                <th>Alamat Usaha</th>
+                                <th>No. HP</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1.</td>
+                                        <td>Jual Minuman Dingin</td>
+                                        <td>JL. POROS MALINO BUTTADIDI</td>                                        
+                                        <td>081 356 321 662	</td>
+                                    </tr>
+                                </tbody>
+                                </table>
                             </div>
 
                             <div class="entry-footer">
@@ -165,7 +182,7 @@
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-5 col-md-12 footer-info">
-                        <a href="{{ route('dashboard.index') }}" class="logo d-flex align-items-center">
+                        <a href="{{ route('user.index') }}" class="logo d-flex align-items-center">
                             <img src="{{ URL::asset('assets/user/assets/img/Gowa.png') }}" alt="">
                             <span>Kelurahan Mawang</span>
                         </a>

@@ -42,14 +42,14 @@
     <header id="header" class="header fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-            <a href="{{ route('dashboard.index') }}" class="logo d-flex align-items-center">
+            <a href="{{ route('user.index') }}" class="logo d-flex align-items-center">
                 <img src="{{ URL::asset('assets/user/assets/img/gowa.png') }}" alt="">
                 <h2><strong>Kelurahan Mawang</strong></h2>
             </a>
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto" href="{{ route('dashboard.index') }}">Beranda</a></li>
+                    <li><a class="nav-link scrollto" href="{{ route('user.index') }}">Beranda</a></li>
                     <li class="dropdown"><a href="{{ route('profil.index') }}"><span>Profil</span> <i class="bi bi-chevron-down"></i></a>
                         <ul>
                             <li><a href="#sejarah">Sejarah</a></li>
@@ -167,7 +167,7 @@
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-5 col-md-12 footer-info">
-                        <a href="{{ route('dashboard.index') }}" class="logo d-flex align-items-center">
+                        <a href="{{ route('user.index') }}" class="logo d-flex align-items-center">
                             <img src="{{ URL::asset('assets/user/assets/img/Gowa.png') }}" alt="">
                             <span>Kelurahan Mawang</span>
                         </a>

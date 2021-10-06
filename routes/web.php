@@ -18,7 +18,7 @@ use App\Http\Controllers\user\KarangtarunaController;
 use App\Http\Controllers\user\PosyanduController;
 use App\Http\Controllers\user\LpmController;
 use App\Http\Controllers\user\FkpmController;
-
+use App\Models\User;
 
 /*
 |--------------------------------------------------------------------------
@@ -38,7 +38,7 @@ use App\Http\Controllers\user\FkpmController;
 // });
 
 Route::prefix('/')->group(function(){
-  Route::resource('dashboard', UserController::class);
+  Route::resource('user', UserController::class);
   Route::resource('profil', ProfilController::class);
   Route::resource('layanan', LayananController::class);
   Route::resource('lembaga', LembagaController::class);
