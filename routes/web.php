@@ -52,6 +52,7 @@ Route::prefix('/')->group(function(){
 
   Route::get('login', [login::class, 'index'])->name('admin.login');
 	Route::post('postlogin', [login::class, 'postlogin'])->name('admin.postlogin');
+  Route::get('logout', [login::class, 'logout'])->name('admin.logout');
   
 });
 
