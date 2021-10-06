@@ -196,7 +196,7 @@
                                 <img src="{{ URL::asset('assets/user/assets/img/kelurahan/Nurul-removebg-preview.png') }}" class="img-fluid" alt="">
                             </div>
                             <div class="member-info">
-                                <h4>Honorer</h4>
+                                <h4>Staff</h4>
                                 <h4>Nurul Khalifah</h4>
                             </div>
                         </div>
@@ -208,7 +208,7 @@
                                 <img src="{{ URL::asset('assets/user/assets/img/kelurahan/Supiani-removebg-preview.png') }}" class="img-fluid" alt="">
                             </div>
                             <div class="member-info">
-                                <h4>Staff</h4>
+                                <h4>Bendahara</h4>
                                 <h4>Supiani, S.M.</h4>
                                 <span>NIP : 19710924 201409 2 001</span></div>
                         </div>
@@ -220,7 +220,7 @@
                                 <img src="{{ URL::asset('assets/user/assets/img/kelurahan/haidir-removebg-preview.png') }}" class="img-fluid" alt="">
                             </div>
                             <div class="member-info">
-                                <h4>Honorer</h4>
+                                <h4>Staff</h4>
                                 <h4>Muh. Chaidir Ali</h4>
                             </div>
                         </div>

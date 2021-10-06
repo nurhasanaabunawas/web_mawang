@@ -97,7 +97,7 @@
                         <div class="content">
                             <h2>Kondisi Geografis</h2>
                             <p>
-                                Mawang adalah salah satu kelurahan di kecamatan Somba Opu, Kabupaten Gowa, Sulawesi Selatan, Indonesia dengan koordinat 5°13’02.3” ─ 5°13’05.9 LS dan 119°29’22.0” ─ 119°30’00.9” BT. Kelurahan Mawang yang memiliki luas 2,99 Km2 ini terdiri dari 2 Wilayah
+                                Mawang adalah salah satu kelurahan di kecamatan Somba Opu, Kabupaten Gowa, Sulawesi Selatan, Indonesia dengan koordinat 5°13’02.3” ─ 5°13’05.9 LS dan 119°29’22.0” ─ 119°30’00.9” BT. Kelurahan Mawang yang memiliki luas 3,99 Km2 ini terdiri dari 2 Wilayah
                                 Lingkungan, yaitu Lingkungan Buttadidi dan Lingkungan Biring Balang. Kelurahan ini berbatasan langsung dengan Kelurahan Romang Polong, Kelurahan Bontoramba, Kelurahan Tamarunang, serta Kecamatan Bontomarannu. </p>
                             <div class="text-center text-lg-start">
                                 <a href="profil.html" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
@@ -109,8 +109,7 @@
                     </div>
 
                     <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15892.996415859576!2d119.48627221756192!3d-5.223510439358647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dbee144f3acb6bd%3A0x384b0f1c81ffc56f!2sMawang%2C%20Kec.%20Somba%20Opu%2C%20Kabupaten%20Gowa%2C%20Sulawesi%20Selatan!5e0!3m2!1sid!2sid!4v1633114174992!5m2!1sid!2sid"
-                            width="550" height="412" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <img src="{{ URL::asset('assets/user/assets/img/PETA MAWANG.webp') }}" class="img-fluid" alt="">
                     </div>
 
                 </div>
