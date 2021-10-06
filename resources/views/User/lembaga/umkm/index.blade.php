@@ -129,6 +129,360 @@
                                         <td>JL. POROS MALINO BUTTADIDI</td>                                        
                                         <td>081 356 321 662	</td>
                                     </tr>
+                                    <tr>
+                                        <td>2.</td>
+                                        <td>Menjahit / Anti Taylor</td>
+                                        <td>Jl. Malino Buttadidi</td>                                        
+                                        <td>085 348 255 926</td>
+                                    </tr>
+                                     <tr>
+                                        <td>3.</td>
+                                        <td>Jual Kue</td>
+                                        <td>Jl.Malino Biring-Balang</td>                                        
+                                        <td>081 342 654 182	</td>
+                                    </tr>
+                                     <tr>
+                                        <td>4.</td>
+                                        <td>Bengkel Motor</td>
+                                        <td>Jl. Damai 1 Biring-Balang</td>                                        
+                                        <td>082 188 463 074</td>
+                                    </tr>
+                                     <tr>
+                                        <td>5.</td>
+                                        <td>Menjahit</td>
+                                        <td>Jl. Damai 1 Biring-Balang</td>                                        
+                                        <td>081 355 656 773</td>
+                                    </tr>
+                                     <tr>
+                                        <td>6.</td>
+                                        <td>Barang Campuran</td>
+                                        <td>Jl. Damai 1 Biring-Balang</td>                                        
+                                        <td>085 398 050 708</td>
+                                    </tr>
+                                     <tr>
+                                        <td>7.</td>
+                                        <td>Bengkel</td>
+                                        <td>Jl. Damai 1 Biring-Balang</td>                                        
+                                        <td>085 397 533 752</td>
+                                    </tr>
+                                     <tr>
+                                        <td>8.</td>
+                                        <td>Barang Campuran</td>
+                                        <td>Jl. Poros Malino Buttadidi</td>                                        
+                                        <td>082 398 611 039</td>
+                                    </tr>
+                                     <tr>
+                                        <td>9.</td>
+                                        <td>Menjahit/ Warda Taylor</td>
+                                        <td>Jl. Malino No 4 Buttadidi</td>                                        
+                                        <td>085 298 372 380</td>
+                                    </tr>
+                                     <tr>
+                                        <td>10.</td>
+                                        <td>Burung Walet</td>
+                                        <td>Jl. Damai 1 Biring-Balang</td>                                        
+                                        <td>082 348 512 361</td>
+                                    </tr>
+                                     <tr>
+                                        <td>11.</td>
+                                        <td>Jual Kue</td>
+                                        <td>Jl. Damai 1 Biring-Balang</td>                                        
+                                        <td>-</td>
+                                    </tr>
+                                     <tr>
+                                        <td>12.</td>
+                                        <td>Barang Campuran</td>
+                                        <td>Biring-Balang</td>                                        
+                                        <td>082 153 924 044</td>
+                                    </tr>
+                                     <tr>
+                                        <td>13.</td>
+                                        <td>Jual Kue</td>
+                                        <td>Jl. Malino Biring-Balang</td>                                        
+                                        <td>083 131 787 622</td>
+                                    </tr>
+                                     <tr>
+                                        <td>14.</td>
+                                        <td>Pangkas Rambut</td>
+                                        <td>Biring-Balang</td>                                        
+                                        <td>085 656 736 917</td>
+                                    </tr>
+                                     <tr>
+                                        <td>15.</td>
+                                        <td>Barang Campuran</td>
+                                        <td>Biring-Balang</td>                                        
+                                        <td>088 758 324 35</td>
+                                    </tr>
+                                     <tr>
+                                        <td>16.</td>
+                                        <td>Jual Beli Barang Elektronik</td>
+                                        <td>Jl. Poros Malino, Desa Mawang</td>                                        
+                                        <td>085 340 323 685</td>
+                                    </tr>
+                                    <tr>
+                                       <td>17.</td>
+                                       <td>Jual Kue</td>
+                                       <td>Lingk. Buttadidi, Kel. Mawang</td>                                        
+                                       <td>082 310 678 063</td>
+                                    </tr>
+                                     <tr>
+                                        <td>18.</td>
+                                        <td>Kuliner (Mie Pangsit Dan Bakso)</td>
+                                        <td>Jl. Poros Malino Buttadidi, Kel.Mawang</td>                                        
+                                        <td>088 242 581 999</td>
+                                    </tr>
+                                     <tr>
+                                        <td>19.</td>
+                                        <td>Kuliner (Gorengan Tahu Isi,Peyek)</td>
+                                        <td>Biring-Balang,Kel. Mawang</td>                                        
+                                        <td>085 321 490 054</td>
+                                    </tr>
+                                     <tr>
+                                        <td>20.</td>
+                                        <td>Jual Sayur Mayur</td>
+                                        <td>Jl.Malino,Kel.Mawang</td>                                        
+                                        <td>085 217 185 217</td>
+                                    </tr>
+                                     <tr>
+                                        <td>21.</td>
+                                        <td>Jual Meubel</td>
+                                        <td>Biring-Balang,Kel. Mawang</td>                                        
+                                        <td>085 299 726 156</td>
+                                    </tr>
+                                     <tr>
+                                        <td>22.</td>
+                                        <td>Barang Campuran</td>
+                                        <td>Jl. Malino Biring-Balang,Kel.Mawang</td>                                        
+                                        <td>085 256 607 243</td>
+                                    </tr>
+                                     <tr>
+                                        <td>23.</td>
+                                        <td>Jual Kue</td>
+                                        <td>Jl. Malino Biring-Balang,Kel.Mawang</td>                                        
+                                        <td>082 196 962 925</td>
+                                    </tr>
+                                     <tr>
+                                        <td>24.</td>
+                                        <td>Jual Sayur Mayur</td>
+                                        <td>Biring-Balang,Kel. Mawang</td>                                        
+                                        <td>083 138 790 736</td>
+                                    </tr>
+                                     <tr>
+                                        <td>25.</td>
+                                        <td>Jual Barang Campuran</td>
+                                        <td>Biring-Balang,Kel. Mawang</td>                                        
+                                        <td>085 244 753 118</td>
+                                    </tr>
+                                     <tr>
+                                        <td>26.</td>
+                                        <td>Jual Barang Campuran</td>
+                                        <td>Lingk. Buttadidi, Kel. Mawang</td>                                        
+                                        <td>088246703481</td>
+                                    </tr>
+                                     <tr>
+                                        <td>27.</td>
+                                        <td>Jual Barang Campuran</td>
+                                        <td>Lingk. Buttadidi, Kel. Mawang</td>                                        
+                                        <td>082346826994</td>
+                                    </tr>
+                                     <tr>
+                                        <td>28.</td>
+                                        <td>Kuliner Ayam Geprek</td>
+                                        <td>Lingk. Buttadidi, Kel. Mawang</td>                                        
+                                        <td>085145981183</td>
+                                    </tr>
+                                     <tr>
+                                        <td>29.</td>
+                                        <td>Jual Barang Campuran</td>
+                                        <td>Lingk. Buttadidi, Kel. Mawang</td>                                        
+                                        <td>085341638278</td>
+                                    </tr>
+                                     <tr>
+                                        <td>30.</td>
+                                        <td>Pakaian Dan Makanan Jadi</td>
+                                        <td>Biring-Balang,Kel. Mawang</td>                                        
+                                        <td>085345556990</td>
+                                    </tr>
+                                     <tr>
+                                        <td>31.</td>
+                                        <td>Jual Sayur Dan Buah</td>
+                                        <td>Lingk. Buttadidi, Kel. Mawang</td>                                        
+                                        <td>085245672533</td>
+                                    </tr>
+                                     <tr>
+                                        <td>32.</td>
+                                        <td>Kuliner</td>
+                                        <td>Jl. Malino Km.16 Bring Balang No 75</td>                                        
+                                        <td>082399282621</td>
+                                    </tr>
+                                     <tr>
+                                        <td>33.</td>
+                                        <td>Jual Barang Campuran</td>
+                                        <td>Lingk. Buttadidi, Kel. Mawang</td>                                        
+                                        <td>085242706223</td>
+                                    </tr>
+                                     <tr>
+                                        <td>34.</td>
+                                        <td>Jual Barang Campuran</td>
+                                        <td>Lingk. Buttadidi, Kel. Mawang</td>                                        
+                                        <td>-</td>
+                                    </tr>
+                                     <tr>
+                                        <td>35.</td>
+                                        <td>Jual Barang Campuran</td>
+                                        <td>Biring-Balang,Kel. Mawang</td>                                        
+                                        <td>082190118407</td>
+                                    </tr>
+                                     <tr>
+                                        <td>36.</td>
+                                        <td>Kuliner (Brownies,Roti Dan Donat)</td>
+                                        <td>Perum Graha Mawang Asri Blok Ad  3/5</td>                                        
+                                        <td>081242249868</td>
+                                    </tr>
+                                     <tr>
+                                        <td>37.</td>
+                                        <td>Menjahit</td>
+                                        <td>Biring-Balang,Kel. Mawang</td>                                        
+                                        <td>082194592478</td>
+                                    </tr>
+                                     <tr>
+                                        <td>38.</td>
+                                        <td>Jualan Campuran Dan Pakaian Jadi</td>
+                                        <td>Jl.Malino Biring Balang</td>                                        
+                                        <td>082348776428</td>
+                                    </tr>
+                                     <tr>
+                                        <td>39.</td>
+                                        <td>Jual Kue</td>
+                                        <td>Jl. Poros Malino Buttadidi, Kel.Mawang</td>                                        
+                                        <td>082157519932</td>
+                                    </tr>
+                                     <tr>
+                                        <td>40.</td>
+                                        <td>Jual Barang Kelontong</td>
+                                        <td>Buttadidi</td>                                        
+                                        <td>081342137308</td>
+                                    </tr>
+                                     <tr>
+                                        <td>41.</td>
+                                        <td>Jual Barang Campuran</td>
+                                        <td>Btn Graha Mawang Asri Blk AC1 No.12</td>                                        
+                                        <td>082336435573</td>
+                                    </tr>
+                                     <tr>
+                                        <td>42.</td>
+                                        <td>Jual Kue</td>
+                                        <td>Biring Balang RT 003 RW 003 Kel.Mawang</td>                                        
+                                        <td>085341365644</td>
+                                    </tr>
+                                     <tr>
+                                        <td>43.</td>
+                                        <td>Bengkel Las</td>
+                                        <td>Biring Balang RT 004 RW 004 Kel.Mawang</td>                                        
+                                        <td>082157791569</td>
+                                    </tr>
+                                     <tr>
+                                        <td>44.</td>
+                                        <td>Jual Barang Campuran</td>
+                                        <td>Biring Balang RT 003 RW 003 Kel.Mawang</td>                                        
+                                        <td>083132592591</td>
+                                    </tr>
+                                     <tr>
+                                        <td>45.</td>
+                                        <td>Jasa Service Ac Dan Pemasangan Instalasi Listrik Dan Wifi</td>
+                                        <td>Btn Graha Mawang Asri Blk AE5 No.1 Kel.Mawang</td>                                        
+                                        <td>081354630009</td>
+                                    </tr>
+                                     <tr>
+                                        <td>46.</td>
+                                        <td>Jual Makanan Jadi</td>
+                                        <td>Jl.Poros Macanda Buttadidi RT001/RW001 Kel.Mawang</td>                                        
+                                        <td>082311439453</td>
+                                    </tr>
+                                     <tr>
+                                        <td>47.</td>
+                                        <td>Menjahit</td>
+                                        <td>Btn Bumi Somba Opu C2 No.05 RT007/RW001 Kel.Mawang</td>                                        
+                                        <td>085333143607</td>
+                                    </tr>
+                                     <tr>
+                                        <td>48.</td>
+                                        <td>Jual Barang Campuran</td>
+                                        <td>Btn Bumi Somba Opu RT. 007/RW 001 Kel, Mawang</td>                                        
+                                        <td>085289673837</td>
+                                    </tr>
+                                     <tr>
+                                        <td>49.</td>
+                                        <td>Jual Pakaian Jadi</td>
+                                        <td>Biring Balang RT.005/RW.004 Kel. Mawang</td>                                        
+                                        <td>081241809717</td>
+                                    </tr>
+                                     <tr>
+                                        <td>50.</td>
+                                        <td>Jual Barang Campuran Dan Makanan Jadi</td>
+                                        <td>Buttadidi, RW. 001/RT. 001 Kel, Mawang</td>                                        
+                                        <td>085240276487</td>
+                                    </tr>
+                                     <tr>
+                                        <td>51.</td>
+                                        <td>Jual Beli Pasir</td>
+                                        <td>Buttadidi, RT. 010/RW. 001 Kel, Mawang</td>                                        
+                                        <td>082344039050</td>
+                                    </tr>
+                                     <tr>
+                                        <td>52.</td>
+                                        <td>Jual Barang Campuran</td>
+                                        <td>Buttadidi, RT. 004/RW. 002 Kel, Mawang</td>                                        
+                                        <td>082346121114</td>
+                                    </tr>
+                                     <tr>
+                                        <td>53.</td>
+                                        <td>Jual Pakaian Jadi</td>
+                                        <td>Jl.Malino Ling.Biringbalang RT002/RW003 Ke.Mawang</td>                                        
+                                        <td>083138917367</td>
+                                    </tr>
+                                     <tr>
+                                        <td>54.</td>
+                                        <td>Jual Furniture</td>
+                                        <td>Buttadidi, RT.007/RW.001 Kel.Mawang</td>                                        
+                                        <td>085399761183</td>
+                                    </tr>
+                                     <tr>
+                                        <td>55.</td>
+                                        <td>Jual Kue Dan Gas Lpg</td>
+                                        <td>Biringbalang RT.004/RW.004 Kel.Mawang</td>                                        
+                                        <td>-</td>
+                                    </tr>
+                                     <tr>
+                                        <td>56.</td>
+                                        <td>Jual Pakaian Seragam Sekolah</td>
+                                        <td>Biringbalang RT.004/RW.004 Kel.Mawang</td>                                        
+                                        <td>085321502563</td>
+                                    </tr>
+                                     <tr>
+                                        <td>57.</td>
+                                        <td>Jual Barang Campuran</td>
+                                        <td>Jl.Macanda Btn Bumi Somba Opu C1 No.25 Kel.Mawang</td>                                        
+                                        <td>-</td>
+                                    </tr>
+                                     <tr>
+                                        <td>58.</td>
+                                        <td>Jual Buah-Buahan</td>
+                                        <td>Jl.Poros Malino Lingk. Buttadidi Kel.Mawang</td>                                        
+                                        <td>085222202314</td>
+                                    </tr>
+                                     <tr>
+                                        <td>59.</td>
+                                        <td>Jual Barang Campuran</td>
+                                        <td>Buttadidi RT.006/RW.002 Kel.Mawang</td>                                        
+                                        <td>082393329063</td>
+                                    </tr>
+                                     <tr>
+                                        <td>60.</td>
+                                        <td>Menjahit</td>
+                                        <td>Buttadidi RT.005/RW.002 Kel.Mawang</td>                                        
+                                        <td>082194082048</td>
+                                    </tr>
                                 </tbody>
                                 </table>
                             </div>
@@ -150,21 +504,6 @@
                         </article>
                         <!-- End blog entry -->
 
-                        <div class="blog-author d-flex align-items-center">
-                            <img src="{{ URL::asset('assets/user/assets/img/blog/blog-author.jpg') }}" class="rounded-circle float-left" alt="">
-                            <div>
-                                <h4>Jane Smith</h4>
-                                <div class="social-links">
-                                    <a href="https://twitters.com/#"><i class="bi bi-twitter"></i></a>
-                                    <a href="https://facebook.com/#"><i class="bi bi-facebook"></i></a>
-                                    <a href="https://instagram.com/#"><i class="biu bi-instagram"></i></a>
-                                </div>
-                                <p>
-                                    Itaque quidem optio quia voluptatibus dolorem dolor. Modi eum sed possimus accusantium. Quas repellat voluptatem officia numquam sint aspernatur voluptas. Esse et accusantium ut unde voluptas.
-                                </p>
-                            </div>
-                        </div>
-                        <!-- End blog author bio -->
 
                     </div>
 
