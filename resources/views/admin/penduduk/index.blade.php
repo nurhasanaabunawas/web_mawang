@@ -128,7 +128,7 @@
             </div>
             <div class="form-group">
               <label >Status Warga</label>
-              <input type="name" id="status" name="status" class="form-control" placeholder="Status Mutasi" >
+              <input type="name" id="status" name="status" class="form-control" placeholder="Status Warga" >
             </div>
             <div class="form-group">
               <label >Bulan</label>
