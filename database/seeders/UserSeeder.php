@@ -25,8 +25,8 @@ class UserSeeder extends Seeder
 
         User::create([
             'uuid' => Str::uuid(),
-            'email' => 'kel_mawang@gmail.com',
-            'password' => bcrypt('mawang23'),
+            'email' => 'kelurahanmawang23@gmail.com',
+            'password' => bcrypt('Mawang23'),
             'remember_token' => Str::random(60)
         ]);
     }
