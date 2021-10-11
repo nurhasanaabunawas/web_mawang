@@ -50,25 +50,28 @@ Route::prefix('/')->group(function(){
   Route::resource('lpm', LpmController::class);
   Route::resource('fkpm', FkpmController::class);
 
-  Route::get('login', [login::class, 'index'])->name('admin.login');
-	Route::post('postlogin', [login::class, 'postlogin'])->name('admin.postlogin');
+  Route::get('login', [login::class, 'index'])->name('admin.login')->middleware('guest');
+	Route::post('login', [login::class, 'authenticate'])->name('admin.authenticate');
   Route::get('logout', [login::class, 'logout'])->name('admin.logout');
   
 });
-Route::prefix('admin')->group(function(){
-    Route::resource('dashboard', DashboardController::class);
-    Route::get('laporan_bulanan', [LaporanBulanan::class, 'index'])->name('admin.laporan_bulanan');
+Route::middleware(['auth'])->group(function(){
+  Route::prefix('admin')->group(function(){
+      Route::resource('dashboard', DashboardController::class);
+      Route::get('laporan_bulanan', [LaporanBulanan::class, 'index'])->name('admin.laporan_bulanan');
 
 
 
-    Route::resource('wilayah_administrasi', WilayahAdministrasi::class)->only([
-			'index', 'store', 'update', 'destroy'
-		]);
-    Route::resource('pemerintahan', PemerintahanController::class)->only([
-    	'index', 'store', 'update', 'destroy'
-    ]);
+      Route::resource('wilayah_administrasi', WilayahAdministrasi::class)->only([
+        'index', 'store', 'update', 'destroy'
+      ]);
+      Route::resource('pemerintahan', PemerintahanController::class)->only([
+        'index', 'store', 'update', 'destroy'
+      ]);
 
-    Route::resource('penduduk', PendudukController::class)->only([
-    	'index', 'store', 'update', 'destroy'
-    ]);
+      Route::resource('penduduk', PendudukController::class)->only([
+        'index', 'store', 'update', 'destroy'
+      ]);
+  });
 });
+  

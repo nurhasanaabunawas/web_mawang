@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Auth;
@@ -15,22 +16,21 @@ use Carbon\Carbon;
 class Login extends Controller
 {
     public function index(){
-        return view('user.login');
+        return view('user.Login');
     }
 
-    public function postlogin (Request $request){
-        $credentials = $request->validate([
-            'email' => ['required', 'email'],
-            'password' => ['required'],
-        ]);
-        // dd($request->all());
-        if (Auth::attempt($credentials)) {
-            $request->session()->regenerate();
-
+    public function authenticate(Request $request){
+        // $credentials = $request->validate([
+        //     'email' => ['required', 'email'],
+        //     'password' => ['required'],
+        // ]);
+        
+        if (Auth::attempt($request->only('email', 'password'))) {
+            // $request->session()->regenerate();
             return redirect()->route('dashboard.index');
-
         }
-        return redirect()->route('dashboard.index');
+        // dd($request->all());
+        return redirect()->route('admin.login');
     }
 
     public function logout(){

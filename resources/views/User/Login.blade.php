@@ -30,17 +30,7 @@
   <div class="card">
     <div class="card-body login-card-body">
       <p class="login-box-msg">Silahkan Login</p>
-     @if ($errors->any())
-
-      <div class="error_msgs">
-          <ul>
-              @foreach ($errors->all() as $error)
-                  <li>{{ $error }}</li>
-              @endforeach
-          </ul>
-      </div>
-    @endif
-      <form action="{{route('admin.postlogin')}}" method="post">
+      <form action="{{route('admin.authenticate')}}" method="POST">
           @csrf
         <div class="input-group mb-3">
           <input type="email" class="form-control" name="email" placeholder="email">
