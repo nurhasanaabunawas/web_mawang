@@ -105,45 +105,18 @@
 
                             <div class="entry-content">
                                 <p>
-                                    Pemberdayaan Kesejahteraan Keluarga, disingkat PKK, adalah organisasi kemasyarakatan yang memberdayakan wanita untuk turut berpartisipasi dalam pembangunan Indonesia. PKK terkenal akan "10 program pokok"-nya. <br>
-                                    <br>10 Program Pokok PKK pada hakikatnya merupakan kebutuhan dasar manusia, yaitu: <br> 1. Penghayatan dan Pengamalan Pancasila <br> 2. Gotong Royong <br> 3. Pangan <br> 4. Sandang <br> 5. Perumahan dan Tatalaksana
-                                    Rumah Tangga <br> 6. Pendidikan dan Keterampilan <br> 7. Kesehatan <br> 8. Pengembangan Kehidupan Berkoperasi <br> 9. Kelestarian Lingkungan Hidup <br> 10. Perencanaan Sehat
-
+                                Posyandu merupakan salah satu bentuk Upaya Kesehatan Berbasis Masyarakat (UKBM) yang dikelola dan diselenggarakan dari, oleh, untuk dan bersama masyarakat dalam penyelenggaraan pembangunan kesehatan guna memberdayakan masyarakat dan memberikan kemudahan kepada masyarakat dalam memperoleh pelayanan kesehatan dasar/sosial dasar untuk mempercepat penurunan Angka Kematian Ibu dan Angka Kematian Bayi.
+                                <br>Posyandu yang terintegrasi adalah kegiatan pelayanan sosial dasar keluarga dalam aspek pemantauan tumbuh kembang anak. Dalam pelaksanaannya dilakukan secara koordinatif dan integratif serta saling memperkuat antar program dan kegiatan untuk kelangsungan pelayanan di Posyandu sesuai dengan situasi/kebutuhan lokal yang dalam kegiatannya tetap memperhatikan aspek pemberdayaan masyarakat.
+                                <br>Posyandu merupakan wadah pemberdayaan masyarakat yang dibentuk melalui musyawarah mufakat di desa/kelurahan dan dikelola oleh Pengelola Posyandu, yang dikukuhkan dengan keputusan kepala desa/lurah.
                                 </p>
-
+                            <h2 class="entry-title">
+                                <a>Struktur Organisasi POSYANDU Kelurahan Mawang</a>
+                            </h2>
                                 <p>
-                                    Sit repellat hic cupiditate hic ut nemo. Quis nihil sunt non reiciendis. Sequi in accusamus harum vel aspernatur. Excepturi numquam nihil cumque odio. Et voluptate cupiditate.
-                                </p>
-
-                                <blockquote>
-                                    <p>
-                                        Et vero doloremque tempore voluptatem ratione vel aut. Deleniti sunt animi aut. Aut eos aliquam doloribus minus autem quos.
-                                    </p>
-                                </blockquote>
-
-                                <p>
-                                    Sed quo laboriosam qui architecto. Occaecati repellendus omnis dicta inventore tempore provident voluptas mollitia aliquid. Id repellendus quia. Asperiores nihil magni dicta est suscipit perspiciatis. Voluptate ex rerum assumenda dolores nihil quaerat.
-                                    Dolor porro tempora et quibusdam voluptas. Beatae aut at ad qui tempore corrupti velit quisquam rerum. Omnis dolorum exercitationem harum qui qui blanditiis neque. Iusto autem itaque. Repudiandae hic quae aspernatur
-                                    ea neque qui. Architecto voluptatem magni. Vel magnam quod et tempora deleniti error rerum nihil tempora.
-                                </p>
-
-                                <h3>Et quae iure vel ut odit alias.</h3>
-                                <p>
-                                    Officiis animi maxime nulla quo et harum eum quis a. Sit hic in qui quos fugit ut rerum atque. Optio provident dolores atque voluptatem rem excepturi molestiae qui. Voluptatem laborum omnis ullam quibusdam perspiciatis nulla nostrum. Voluptatum est libero
-                                    eum nesciunt aliquid qui. Quia et suscipit non sequi. Maxime sed odit. Beatae nesciunt nesciunt accusamus quia aut ratione aspernatur dolor. Sint harum eveniet dicta exercitationem minima. Exercitationem omnis asperiores
-                                    natus aperiam dolor consequatur id ex sed. Quibusdam rerum dolores sint consequatur quidem ea. Beatae minima sunt libero soluta sapiente in rem assumenda. Et qui odit voluptatem. Cum quibusdam voluptatem voluptatem
-                                    accusamus mollitia aut atque aut.
-                                </p>
-                                <img src="{{ URL::asset('assets/user/assets/img/blog/blog-inside-post.jpg') }}" class="img-fluid" alt="">
-
-                                <h3>Ut repellat blanditiis est dolore sunt dolorum quae.</h3>
-                                <p>
-                                    Rerum ea est assumenda pariatur quasi et quam. Facilis nam porro amet nostrum. In assumenda quia quae a id praesentium. Quos deleniti libero sed occaecati aut porro autem. Consectetur sed excepturi sint non placeat quia repellat incidunt labore. Autem
-                                    facilis hic dolorum dolores vel. Consectetur quasi id et optio praesentium aut asperiores eaque aut. Explicabo omnis quibusdam esse. Ex libero illum iusto totam et ut aut blanditiis. Veritatis numquam ut illum ut a
-                                    quam vitae.
-                                </p>
-                                <p>
-                                    Alias quia non aliquid. Eos et ea velit. Voluptatem maxime enim omnis ipsa voluptas incidunt. Nulla sit eaque mollitia nisi asperiores est veniam.
+                                    Ketua &nbsp;: <br>
+                                    Sekretaris : <br>
+                                    Bendahara : <br>
+                                    Anggota : <br>
                                 </p>
 
                             </div>
